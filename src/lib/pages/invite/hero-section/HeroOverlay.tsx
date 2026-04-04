@@ -32,8 +32,9 @@ export function HeroOverlay({
       </svg>
 
       {/* ─── Mobile: foto = exatamente 1 viewport; texto acima da barra inferior ─── */}
-      <div className="relative h-[100svh] max-h-[100svh] w-full overflow-hidden lg:hidden">
-        <div className="absolute inset-0">
+      {/* overflow-hidden só no bloco da imagem — no contentor exterior impede scroll da página no iOS */}
+      <div className="relative h-[100svh] w-full lg:hidden">
+        <div className="absolute inset-0 overflow-hidden">
           <Image
             src={heroImage}
             alt=""
