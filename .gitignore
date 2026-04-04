@@ -38,6 +38,8 @@ next-env.d.ts
 # data files (optional - remove if you want to version control)
 /data/*.json
 !/data/.gitkeep
+# Necessário no build (import em src/lib/data/manual-padrinhos.ts)
+!/data/manual-padrinhos.json
 
 
 
