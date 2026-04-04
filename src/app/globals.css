@@ -87,6 +87,13 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Navbar inferior fixa no mobile: âncoras (#cerimonia, etc.) não ficam atrás da barra */
+@media (max-width: 767px) {
+  html {
+    scroll-padding-bottom: 5rem;
+  }
+}
+
 /* Responsive font-size base */
 @media (max-width: 640px) {
   html {

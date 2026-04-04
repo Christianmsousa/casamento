@@ -194,6 +194,25 @@ export function Navbar() {
                 const linkProps = item.isExternal 
                   ? { target: '_blank', rel: 'noopener noreferrer' }
                   : {}
+
+                // Mesma página /invite: âncoras #secção — <a> nativo (next/link não faz scroll)
+                if (isInviteRoute && item.href.startsWith('#')) {
+                  return (
+                    <a
+                      key={item.id}
+                      href={item.href}
+                      className={desktopNavLinkClass(isActive)}
+                    >
+                      {item.label}
+                      {isActive && (
+                        <span
+                          className="absolute -bottom-1 left-0 right-0 h-0.5 rounded-full bg-gold-500 shadow-[0_1px_2px_rgba(201,169,110,0.45)]"
+                          aria-hidden
+                        />
+                      )}
+                    </a>
+                  )
+                }
                 
                 // Se for link interno (começa com /) e não for externo, usar Link do Next.js
                 if (item.href.startsWith('/') && !item.isExternal) {
@@ -265,6 +284,28 @@ export function Navbar() {
             const linkProps = item.isExternal 
               ? { target: '_blank', rel: 'noopener noreferrer' }
               : {}
+
+            const mobileLinkClass = `flex flex-col items-center justify-center flex-1 h-full transition-all duration-200 ${
+              isActive ? 'text-terracota-600' : 'text-gray-500'
+            }`
+
+            // Mesma página /invite: âncoras — <a> nativo para o browser fazer scroll até #cerimonia etc.
+            if (isInviteRoute && item.href.startsWith('#')) {
+              return (
+                <a
+                  key={item.id}
+                  href={item.href}
+                  className={mobileLinkClass}
+                >
+                  <div className={`mb-0.5 transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
+                    {item.icon}
+                  </div>
+                  <span className={`text-[0.625rem] font-medium transition-colors leading-tight ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}>
+                    {item.label}
+                  </span>
+                </a>
+              )
+            }
             
             // Se for link interno (começa com /) ou contém hash, usar Link do Next.js
             if ((item.href.startsWith('/') || item.href.includes('#')) && !item.isExternal) {

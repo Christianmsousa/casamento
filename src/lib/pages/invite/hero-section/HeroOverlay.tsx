@@ -8,6 +8,8 @@ export type HeroOverlayProps = {
   hasWeddingDate: boolean
   /** Texto já formatado (só coluna desktop) */
   formattedDate?: string
+  /** Página /invite: mostra o parágrafo emotivo mesmo sem data (home não passa) */
+  showInviteTagline?: boolean
   bottomSlot?: ReactNode
 }
 
@@ -15,6 +17,7 @@ export function HeroOverlay({
   coupleName,
   hasWeddingDate,
   formattedDate,
+  showInviteTagline = false,
   bottomSlot,
 }: HeroOverlayProps) {
   return (
@@ -31,9 +34,8 @@ export function HeroOverlay({
         </defs>
       </svg>
 
-      {/* ─── Mobile: foto = exatamente 1 viewport; texto acima da barra inferior ─── */}
-      {/* overflow-hidden só no bloco da imagem — no contentor exterior impede scroll da página no iOS */}
-      <div className="relative h-[100svh] w-full lg:hidden">
+      {/* ─── Mobile: min-h = 1 ecrã; pode crescer com texto — h-[100svh] fixo cortava copy e atrapalhava scroll no iOS ─── */}
+      <div className="relative min-h-[100svh] w-full lg:hidden">
         <div className="absolute inset-0 overflow-hidden">
           <Image
             src={heroImage}
@@ -51,8 +53,8 @@ export function HeroOverlay({
           className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/25 to-black/15"
           aria-hidden
         />
-        <div className="relative z-10 flex h-full min-h-0 flex-col justify-end px-6 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.25rem))]">
-          <header className="mx-auto w-full max-w-lg shrink-0 text-center">
+        <div className="relative z-10 flex min-h-[100svh] flex-col justify-end px-6 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.25rem))]">
+          <header className="mx-auto w-full max-w-lg shrink-0 pb-2 text-center">
             <p className="mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-white/85">
               O casamento de
             </p>
@@ -67,7 +69,7 @@ export function HeroOverlay({
               {coupleName}
             </h1>
 
-            {hasWeddingDate && (
+            {(showInviteTagline || hasWeddingDate) && (
               <p className="mt-7 text-pretty text-base font-light leading-relaxed text-white/95 [text-shadow:0_1px_14px_rgba(0,0,0,0.55)] sm:text-lg">
                 Mal podemos esperar para celebrar convosco — cada detalhe foi
                 pensado com carinho para um dia que queremos guardar para sempre.
@@ -113,7 +115,7 @@ export function HeroOverlay({
             <span className="h-px w-12 bg-gold-400/90 sm:w-16" />
           </div>
 
-          {hasWeddingDate && (
+          {(showInviteTagline || hasWeddingDate) && (
             <p className="mt-8 text-pretty text-lg font-light leading-relaxed text-charcoal-600 sm:text-xl sm:leading-relaxed">
               Mal podemos esperar para celebrar convosco — cada detalhe foi
               pensado com carinho para um dia que queremos guardar para sempre.

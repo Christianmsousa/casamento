@@ -10,6 +10,7 @@ export function HeroSection({
     coupleName,
     hasWeddingDate: !!weddingDate,
     formattedDate: formattedDate ?? '',
+    showInviteTagline: true,
   }
 
   return (
