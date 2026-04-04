@@ -1,0 +1,16 @@
+---
+description: Dicas gerais e melhores práticas do projeto
+tags: [best-practices, general, guidelines]
+alwaysApply: true
+---
+
+# Dicas Gerais
+
+- ✅ **Sempre use TypeScript** - Type safety é essencial
+- ✅ **Prefira Server Components** - Use Client Components (`'use client'`) apenas quando necessário
+- ✅ **Use Tailwind primeiro** - Só use CSS custom quando Tailwind não for suficiente
+- ✅ **Use Tailwind Variants (cva) para componentes com variantes** - Type-safe e composável
+- ✅ **Sempre use `cn()` helper** - Para combinar classes com variants (evita conflitos)
+- ✅ **Mantenha componentes pequenos** - Um componente = uma responsabilidade
+- ✅ **Documente funções complexas** - JSDoc para funções utilitárias
+- ✅ **Siga a estrutura** - Consulte `project_structure.md` sempre

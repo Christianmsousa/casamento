@@ -1,0 +1,12 @@
+---
+description: Quando usar Jest e React Testing Library para testes unitários
+tags: [testing, jest, unit-tests]
+globs: ["**/*.test.tsx", "**/*.test.ts", "**/*.spec.tsx", "**/*.spec.ts"]
+alwaysApply: false
+---
+
+# Jest + React Testing Library
+
+## Quando usar:
+- ✅ Testes unitários de componentes
+- ✅ Testes de funções utilitárias

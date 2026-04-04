@@ -1,0 +1,24 @@
+---
+description: Plugins remark/rehype para processamento avançado de markdown
+tags: [markdown, plugins, remark, rehype]
+globs: ["**/lib/markdown/processor.ts"]
+alwaysApply: true
+---
+
+# remark / rehype plugins
+
+## Quando usar:
+- ✅ Syntax highlighting de código
+- ✅ Tabelas no markdown
+- ✅ Links automáticos
+- ✅ Emojis
+- ✅ Customizações avançadas do parser
+
+## Onde usar:
+- `lib/markdown/processor.ts`
+
+## Plugins úteis:
+- `remark-gfm` - GitHub Flavored Markdown
+- `rehype-highlight` - Syntax highlighting
+- `rehype-slug` - IDs em headings
+- `rehype-autolink-headings` - Links automáticos em headings

@@ -1,0 +1,18 @@
+---
+description: Como usar App Router do Next.js para rotas
+tags: [routing, nextjs, app-router]
+globs: ["**/app/**/*.tsx"]
+alwaysApply: true
+---
+
+# App Router (`app/`)
+
+## Quando usar:
+- ✅ Todas as rotas da aplicação
+- ✅ Layouts por grupo de rotas
+- ✅ Server Components por padrão
+
+## Estrutura:
+- `app/page.tsx` - Rota raiz
+- `app/checklist/page.tsx` - Rota `/checklist`
+- `app/(markdown)/layout.tsx` - Layout para grupo de rotas

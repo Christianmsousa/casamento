@@ -1,0 +1,22 @@
+---
+description: Como usar next/image para otimização de imagens
+tags: [assets, images, nextjs, optimization]
+globs: ["**/*.tsx"]
+alwaysApply: true
+---
+
+# next/image
+
+## Quando usar:
+- ✅ Todas as imagens do projeto
+- ✅ Otimização automática
+- ✅ Lazy loading
+
+## Onde colocar:
+- `public/images/`
+
+## Exemplo:
+```tsx
+import Image from 'next/image'
+<Image src="/images/casamento/foto.jpg" alt="..." width={800} height={600} />
+```

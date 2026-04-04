@@ -1,0 +1,18 @@
+---
+description: Quando criar custom hooks e onde colocá-los
+tags: [hooks, custom, reusable]
+globs: ["**/lib/hooks/**/*.ts"]
+alwaysApply: true
+---
+
+# Custom Hooks em `lib/hooks/`
+
+## Quando usar:
+- ✅ Lógica reutilizável entre componentes
+- ✅ Estado compartilhado
+- ✅ Efeitos colaterais complexos
+
+## Exemplos:
+- `useMarkdown.ts` - Carregar e processar markdown
+- `useLocalStorage.ts` - Persistir dados no localStorage
+- `useChecklist.ts` - Gerenciar estado de checklist

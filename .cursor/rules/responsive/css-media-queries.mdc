@@ -1,0 +1,12 @@
+---
+description: Quando usar CSS Media Queries ao invés de Tailwind breakpoints
+tags: [responsive, css, media-queries]
+globs: ["**/*.css", "**/*.module.css"]
+alwaysApply: false
+---
+
+# CSS Media Queries
+
+## Quando usar:
+- ✅ Responsividade complexa que Tailwind não cobre
+- ✅ Mudanças de layout muito específicas

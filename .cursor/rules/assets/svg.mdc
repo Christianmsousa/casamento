@@ -1,0 +1,16 @@
+---
+description: Quando usar SVG como componente React
+tags: [assets, svg, icons, components]
+globs: ["**/components/icons/**/*.tsx", "**/public/icons/**/*.svg"]
+alwaysApply: true
+---
+
+# SVG como componente
+
+## Quando usar:
+- ✅ Ícones SVG
+- ✅ Quando precisa estilizar o SVG
+- ✅ Quando precisa animar partes do SVG
+
+## Onde colocar:
+- `public/icons/` ou `components/icons/`

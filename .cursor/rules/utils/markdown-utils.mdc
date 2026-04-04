@@ -1,0 +1,12 @@
+---
+description: Utilitários específicos para processamento de markdown
+tags: [utils, markdown, processing]
+globs: ["**/lib/markdown/**/*.ts"]
+alwaysApply: true
+---
+
+# Funções em `lib/markdown/`
+
+## Quando usar:
+- ✅ Processamento específico de markdown
+- ✅ Parsers, processors, transformações

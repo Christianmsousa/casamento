@@ -1,0 +1,70 @@
+---
+description: Como usar Tailwind Variants com class-variance-authority para componentes com variantes
+tags: [styling, tailwind, variants, cva, components]
+globs: ["**/components/ui/**/*.tsx"]
+alwaysApply: true
+---
+
+# Tailwind Variants (class-variance-authority)
+
+## Quando usar:
+- ✅ Componentes com múltiplas variantes (size, variant, color, etc.)
+- ✅ Quando precisa de composição de classes baseada em props
+- ✅ Componentes reutilizáveis com diferentes estilos
+- ✅ Quando quer type-safety nas variantes
+- ✅ Componentes de UI library (Button, Badge, Card, etc.)
+
+## Onde usar:
+- `components/ui/` - Componentes com variantes
+- Componentes que precisam de diferentes estilos baseados em props
+
+## Instalação:
+```bash
+npm install class-variance-authority clsx tailwind-merge
+```
+
+## Exemplo:
+```tsx
+import { cva, type VariantProps } from "class-variance-authority"
+import { cn } from "@/lib/utils"
+
+const buttonVariants = cva(
+  "inline-flex items-center justify-center rounded-md font-medium",
+  {
+    variants: {
+      variant: {
+        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        outline: "border border-input bg-background hover:bg-accent",
+      },
+      size: {
+        default: "h-10 px-4 py-2",
+        sm: "h-9 rounded-md px-3",
+        lg: "h-11 rounded-md px-8",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+)
+
+interface ButtonProps extends VariantProps<typeof buttonVariants> {
+  children: React.ReactNode
+}
+
+export const Button = ({ variant, size, className, ...props }: ButtonProps) => {
+  return (
+    <button
+      className={cn(buttonVariants({ variant, size }), className)}
+      {...props}
+    />
+  )
+}
+```
+
+## Bibliotecas relacionadas:
+- `class-variance-authority` (cva) - Criar variantes type-safe
+- `clsx` - Combinar classes condicionalmente
+- `tailwind-merge` - Mesclar classes Tailwind sem conflitos

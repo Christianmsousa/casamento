@@ -1,0 +1,15 @@
+---
+description: Como usar Dynamic Routes para páginas dinâmicas
+tags: [routing, nextjs, dynamic]
+globs: ["**/app/**/[*]/**/*.tsx"]
+alwaysApply: true
+---
+
+# Dynamic Routes `[slug]`
+
+## Quando usar:
+- ✅ Páginas dinâmicas baseadas em parâmetro
+- ✅ Blog posts, produtos, etc.
+
+## Exemplo:
+- `app/content/[slug]/page.tsx`

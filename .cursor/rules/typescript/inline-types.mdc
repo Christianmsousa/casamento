@@ -1,0 +1,13 @@
+---
+description: Quando usar types inline ao invés de types compartilhados
+tags: [typescript, types, inline]
+globs: ["**/*.tsx", "**/*.ts"]
+alwaysApply: true
+---
+
+# Types inline
+
+## Quando usar:
+- ✅ Types específicos de um único componente
+- ✅ Types simples que não serão reutilizados
+- ✅ Props de componente local

@@ -1,0 +1,22 @@
+---
+description: Quando usar MDX para misturar React components com markdown
+tags: [markdown, mdx, components, landing]
+globs: ["**/app/(landing)/**/*.tsx", "**/content/**/*.mdx"]
+alwaysApply: true
+---
+
+# MDX
+
+## Quando usar:
+- ✅ Precisa misturar React components com markdown
+- ✅ Quer componentes customizados dentro do markdown
+- ✅ Landing page com conteúdo dinâmico
+
+## Onde usar:
+- `app/(landing)/page.tsx`
+- Arquivos `.mdx` em `content/`
+
+## Instalação:
+```bash
+npm install @next/mdx @mdx-js/loader @mdx-js/react
+```

@@ -1,0 +1,25 @@
+---
+description: Quando e como usar Tailwind CSS para estilização
+tags: [styling, tailwind, css, utilities]
+globs: ["**/*.tsx", "**/*.ts", "**/*.jsx", "**/*.js"]
+alwaysApply: true
+---
+
+# Tailwind CSS
+
+## Quando usar:
+- ✅ Estilização de componentes
+- ✅ Layouts responsivos
+- ✅ Utilitários de espaçamento, cores, tipografia
+- ✅ Animações simples
+- ✅ Estados hover, focus, active
+
+## Onde usar:
+- Componentes em `components/ui/`
+- Páginas em `app/`
+- Classes utilitárias inline
+
+## Exemplo:
+```tsx
+<div className="flex items-center justify-between p-4 bg-white rounded-lg shadow-md">
+```

@@ -1,0 +1,15 @@
+---
+description: Quando usar hooks nativos do React
+tags: [hooks, react, native]
+globs: ["**/*.tsx", "**/*.ts"]
+alwaysApply: true
+---
+
+# Hooks do React
+
+## Quando usar:
+- ✅ `useState` - Estado local simples
+- ✅ `useEffect` - Efeitos colaterais
+- ✅ `useMemo` - Memoização de cálculos
+- ✅ `useCallback` - Memoização de funções
+- ✅ `useRouter` (Next.js) - Navegação

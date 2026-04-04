@@ -1,0 +1,33 @@
+---
+description: Bibliotecas recomendadas e quando instalá-las
+tags: [libraries, dependencies, npm]
+alwaysApply: true
+---
+
+# Bibliotecas Recomendadas
+
+## Para Markdown:
+```bash
+npm install react-markdown remark-gfm rehype-highlight
+```
+
+## Para UI Components:
+```bash
+npm install @radix-ui/react-dialog @radix-ui/react-dropdown-menu
+# ou usar shadcn/ui
+```
+
+## Para Tailwind Variants:
+```bash
+npm install class-variance-authority clsx tailwind-merge
+```
+
+## Para Formatação:
+```bash
+npm install date-fns  # Formatação de datas
+```
+
+## Para Validação:
+```bash
+npm install zod  # Validação de schemas
+```

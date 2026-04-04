@@ -1,0 +1,17 @@
+---
+description: Quando usar transições do Tailwind para animações simples
+tags: [animations, tailwind, transitions]
+globs: ["**/*.tsx"]
+alwaysApply: true
+---
+
+# Tailwind transitions
+
+## Quando usar:
+- ✅ Animações simples (hover, focus)
+- ✅ Transições de cor, tamanho, opacidade
+
+## Exemplo:
+```tsx
+<button className="transition-all duration-300 hover:scale-105">
+```

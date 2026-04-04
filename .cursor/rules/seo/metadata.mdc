@@ -1,0 +1,18 @@
+---
+description: Como implementar SEO com Metadata API do Next.js
+tags: [seo, metadata, nextjs]
+globs: ["**/app/**/layout.tsx", "**/app/**/page.tsx"]
+alwaysApply: true
+---
+
+# next/head ou Metadata API
+
+## Quando usar:
+- ✅ Meta tags em todas as páginas
+- ✅ Open Graph tags
+- ✅ Twitter Cards
+
+## Onde usar:
+- `app/layout.tsx` - Meta tags globais
+- `app/*/page.tsx` - Meta tags específicas
+- `lib/components/SEO.tsx` - Componente helper

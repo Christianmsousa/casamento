@@ -1,0 +1,12 @@
+---
+description: Quando usar Playwright ou Cypress para testes E2E
+tags: [testing, e2e, playwright, cypress]
+globs: ["**/e2e/**/*.ts", "**/tests/e2e/**/*.ts"]
+alwaysApply: false
+---
+
+# Playwright / Cypress
+
+## Quando usar:
+- ✅ Testes E2E
+- ✅ Testes de fluxos completos

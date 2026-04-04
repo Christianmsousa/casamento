@@ -1,0 +1,23 @@
+---
+description: Organização e padrões para componentes UI reutilizáveis
+tags: [components, ui, reusable, variants]
+globs: ["**/components/ui/**/*.tsx"]
+alwaysApply: true
+---
+
+# Componentes em `components/ui/`
+
+## Quando usar:
+- ✅ Componentes reutilizáveis básicos
+- ✅ Botões, inputs, cards, modais
+- ✅ Componentes que não dependem de lógica de negócio
+
+## Exemplos:
+- `Button.tsx` - Use Tailwind Variants para variantes (size, variant, etc.)
+- `Card.tsx` - Use Tailwind Variants se tiver variantes
+- `Input.tsx` - Use Tailwind Variants para estados (error, disabled, etc.)
+- `Modal.tsx`
+
+## Importante:
+- ✅ Componentes com variantes devem usar `class-variance-authority` (cva)
+- ✅ Use `cn()` helper (clsx + tailwind-merge) para combinar classes

@@ -1,0 +1,22 @@
+---
+description: Quando usar react-markdown para renderizar markdown simples
+tags: [markdown, react-markdown, content]
+globs: ["**/components/markdown/**/*.tsx", "**/lib/markdown/**/*.ts"]
+alwaysApply: true
+---
+
+# react-markdown
+
+## Quando usar:
+- ✅ Renderizar markdown simples
+- ✅ Conteúdo estático de arquivos `.md`
+- ✅ Quando não precisa de React components dentro do markdown
+
+## Onde usar:
+- `components/markdown/MarkdownRenderer.tsx`
+- `lib/markdown/processor.ts`
+
+## Instalação:
+```bash
+npm install react-markdown
+```

@@ -1,0 +1,17 @@
+---
+description: Como usar Route Groups para organizar rotas sem afetar URL
+tags: [routing, nextjs, route-groups]
+globs: ["**/app/**/*.tsx"]
+alwaysApply: true
+---
+
+# Route Groups `(nome)/`
+
+## Quando usar:
+- ✅ Agrupar rotas sem afetar URL
+- ✅ Aplicar layouts diferentes a grupos de rotas
+- ✅ Organizar rotas semanticamente
+
+## Exemplo:
+- `(markdown)/` - Rotas relacionadas a markdown
+- `(landing)/` - Rotas da landing page

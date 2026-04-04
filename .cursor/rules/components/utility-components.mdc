@@ -1,0 +1,13 @@
+---
+description: Componentes utilitários e de infraestrutura
+tags: [components, utility, infrastructure]
+globs: ["**/lib/components/**/*.tsx"]
+alwaysApply: true
+---
+
+# Componentes em `lib/components/`
+
+## Quando usar:
+- ✅ Componentes utilitários (Loading, ErrorBoundary)
+- ✅ Componentes de infraestrutura (SEO)
+- ✅ Componentes que são mais "helpers" que UI

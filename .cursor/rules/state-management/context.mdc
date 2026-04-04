@@ -1,0 +1,16 @@
+---
+description: Quando usar Context API com useReducer para estado compartilhado
+tags: [state, context, shared, reducer]
+globs: ["**/lib/context/**/*.tsx", "**/lib/context/**/*.ts"]
+alwaysApply: true
+---
+
+# useContext + useReducer
+
+## Quando usar:
+- ✅ Estado compartilhado entre múltiplos componentes
+- ✅ Estado complexo que precisa de actions
+- ✅ Tema da aplicação, autenticação
+
+## Onde criar:
+- `lib/context/` (criar se necessário)

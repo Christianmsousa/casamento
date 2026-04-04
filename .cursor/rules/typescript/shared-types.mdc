@@ -1,0 +1,18 @@
+---
+description: Quando criar types compartilhados e onde colocá-los
+tags: [typescript, types, shared]
+globs: ["**/lib/types/**/*.ts"]
+alwaysApply: true
+---
+
+# Types em `lib/types/`
+
+## Quando usar:
+- ✅ Types compartilhados entre múltiplos arquivos
+- ✅ Interfaces de dados principais
+- ✅ Types de props de componentes compartilhados
+
+## Estrutura:
+- `lib/types/markdown.ts` - Types relacionados a markdown
+- `lib/types/checklist.ts` - Types relacionados a checklist
+- `lib/types/index.ts` - Exportações centralizadas

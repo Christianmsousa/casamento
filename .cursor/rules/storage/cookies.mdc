@@ -1,0 +1,15 @@
+---
+description: Quando usar Cookies para dados que precisam estar disponíveis no SSR
+tags: [storage, cookies, ssr]
+globs: ["**/*.ts", "**/*.tsx"]
+alwaysApply: false
+---
+
+# Cookies
+
+## Quando usar:
+- ✅ Dados que precisam ser enviados ao servidor
+- ✅ Preferências que precisam estar disponíveis no SSR
+
+## Biblioteca:
+- `js-cookie` ou `next-cookies`

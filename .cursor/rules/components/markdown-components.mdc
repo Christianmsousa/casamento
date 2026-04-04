@@ -1,0 +1,18 @@
+---
+description: Componentes específicos para renderizar e customizar markdown
+tags: [components, markdown, rendering]
+globs: ["**/components/markdown/**/*.tsx"]
+alwaysApply: true
+---
+
+# Componentes em `components/markdown/`
+
+## Quando usar:
+- ✅ Componentes específicos para renderizar markdown
+- ✅ Customizações de elementos markdown (h1, p, img, etc.)
+- ✅ Componentes de checklist customizados
+
+## Exemplos:
+- `MarkdownRenderer.tsx`
+- `Checklist.tsx`
+- `MarkdownContent.tsx`

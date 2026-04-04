@@ -1,0 +1,17 @@
+---
+description: Como usar breakpoints do Tailwind para responsividade
+tags: [responsive, tailwind, breakpoints]
+globs: ["**/*.tsx"]
+alwaysApply: true
+---
+
+# Tailwind breakpoints
+
+## Quando usar:
+- ✅ Maioria dos casos de responsividade
+- ✅ Classes como `md:`, `lg:`, `xl:`
+
+## Exemplo:
+```tsx
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+```

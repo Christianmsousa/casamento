@@ -1,0 +1,18 @@
+---
+description: Quando usar CSS Modules ou CSS Global ao invés de Tailwind
+tags: [styling, css, modules, global]
+globs: ["**/*.module.css", "**/styles/**/*.css"]
+alwaysApply: false
+---
+
+# CSS Modules / CSS Global
+
+## Quando usar:
+- ✅ Estilos muito específicos e complexos
+- ✅ Animações customizadas avançadas
+- ✅ Quando Tailwind fica verboso demais
+- ✅ Estilos globais compartilhados
+
+## Onde usar:
+- `src/styles/components.css` para estilos globais
+- `*.module.css` para estilos de componente específico

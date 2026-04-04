@@ -1,0 +1,18 @@
+---
+description: Quando usar Zustand para estado global complexo
+tags: [state, zustand, global]
+globs: ["**/lib/stores/**/*.ts"]
+alwaysApply: false
+---
+
+# Zustand / Jotai
+
+## Quando usar:
+- ✅ Estado global complexo
+- ✅ Muitos componentes precisam do mesmo estado
+- ✅ Quando Context API fica verboso
+
+## Instalação:
+```bash
+npm install zustand
+```

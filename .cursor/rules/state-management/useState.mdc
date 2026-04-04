@@ -1,0 +1,13 @@
+---
+description: Quando usar useState para estado local simples
+tags: [state, useState, local]
+globs: ["**/*.tsx"]
+alwaysApply: true
+---
+
+# useState (React)
+
+## Quando usar:
+- ✅ Estado local de componente
+- ✅ Estado simples que não precisa ser compartilhado
+- ✅ Formulários simples

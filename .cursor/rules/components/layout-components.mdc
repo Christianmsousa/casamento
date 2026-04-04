@@ -1,0 +1,13 @@
+---
+description: Componentes de layout compartilhados entre páginas
+tags: [components, layout, shared]
+globs: ["**/components/layout/**/*.tsx"]
+alwaysApply: true
+---
+
+# Componentes em `components/layout/`
+
+## Quando usar:
+- ✅ Header, Footer, Navigation
+- ✅ Layouts compartilhados entre páginas
+- ✅ Sidebar, Container

@@ -1,0 +1,16 @@
+---
+description: Quando usar localStorage para persistência de dados no cliente
+tags: [storage, localStorage, client-side]
+globs: ["**/lib/hooks/useLocalStorage.ts"]
+alwaysApply: true
+---
+
+# localStorage
+
+## Quando usar:
+- ✅ Salvar preferências do usuário
+- ✅ Estado de checklist (marcado/não marcado)
+- ✅ Dados temporários que não precisam de backend
+
+## Onde usar:
+- `lib/hooks/useLocalStorage.ts`

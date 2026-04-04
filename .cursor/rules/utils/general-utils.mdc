@@ -1,0 +1,29 @@
+---
+description: Funções utilitárias gerais e onde colocá-las
+tags: [utils, helpers, pure-functions]
+globs: ["**/lib/utils/**/*.ts"]
+alwaysApply: true
+---
+
+# Funções em `lib/utils/`
+
+## Quando usar:
+- ✅ Funções puras sem dependências de React
+- ✅ Formatação, validação, transformação de dados
+- ✅ Helpers gerais
+
+## Exemplos:
+- `format.ts` - Formatar datas, números, moedas
+- `validation.ts` - Validar emails, CPF, etc.
+- `constants.ts` - Constantes da aplicação
+- `cn.ts` - Helper para combinar classes (clsx + tailwind-merge) - **OBRIGATÓRIO para variants**
+
+## Exemplo de `lib/utils/cn.ts`:
+```tsx
+import { type ClassValue, clsx } from "clsx"
+import { twMerge } from "tailwind-merge"
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+```

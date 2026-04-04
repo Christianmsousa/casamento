@@ -1,0 +1,19 @@
+---
+description: Checklist de decisão rápida para escolher tecnologias e padrões
+tags: [decision, checklist, guide]
+alwaysApply: true
+---
+
+# Checklist de Decisão
+
+Ao criar algo novo, pergunte:
+
+1. **É um componente UI reutilizável?** → `components/ui/`
+   - **Tem variantes (size, variant, color)?** → Use `class-variance-authority` (cva)
+2. **É específico de markdown?** → `components/markdown/` ou `lib/markdown/`
+3. **É uma função utilitária pura?** → `lib/utils/`
+4. **É um hook customizado?** → `lib/hooks/`
+5. **É um type compartilhado?** → `lib/types/`
+6. **Precisa de estado global?** → Context API ou Zustand
+7. **É uma nova página?** → `app/[rota]/page.tsx`
+8. **Precisa de layout diferente?** → Route Groups `(nome)/`
