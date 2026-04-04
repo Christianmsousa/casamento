@@ -32,16 +32,12 @@ export function GuestLocationSection({
   const showMessage = hasWeddingDate
   const showLocation = Boolean(location)
 
-  if (!showMessage && !showLocation) {
-    return null
-  }
-
   const omitLocationHeading = showMessage && showLocation
   const dayPhrase = weddingDayMonthLabel.trim() || 'este dia'
   const t = manualPadrinhosToneClass
 
-  /** Títulos “Cerimônia & Recepção” + “Um único lugar…” — sempre visíveis (mobile e desktop) quando há mensagem. */
-  const ceremonyHeadings = showMessage && (
+  /** Títulos “Cerimônia & Recepção” + “Um único lugar…” — mesmo markup em todos os estados (com/sem data). */
+  const ceremonyHeadingsMarkup = (
     <div className="text-center lg:text-left">
       <div className="flex flex-col items-center gap-3 lg:flex-row lg:items-center lg:gap-3">
         <div className="hidden h-8 w-px shrink-0 bg-terracota-400 lg:block" aria-hidden />
@@ -91,7 +87,7 @@ export function GuestLocationSection({
   /** Bloco completo (títulos + corpo) só quando há mensagem mas não há mapa na mesma secção em layout “simples”. */
   const messageBlockFull = showMessage && (
     <div className="flex min-w-0 flex-col gap-5">
-      {ceremonyHeadings}
+      {ceremonyHeadingsMarkup}
       {ceremonyBody}
     </div>
   )
@@ -133,8 +129,7 @@ export function GuestLocationSection({
 
         {showMessage && showLocation && (
           <div className="mx-auto w-full max-w-6xl xl:max-w-7xl">
-            {/* Títulos em largura total: evita sumirem no mobile (antes só no messageBlock da 1ª coluna). */}
-            <div className="mb-10 w-full lg:mb-12">{ceremonyHeadings}</div>
+            <div className="mb-10 w-full lg:mb-12">{ceremonyHeadingsMarkup}</div>
 
             <div className="flex w-full flex-col gap-10 lg:flex-row lg:items-start lg:gap-16 xl:gap-24">
               <div className="min-w-0 flex-1">{ceremonyBody}</div>
@@ -153,6 +148,16 @@ export function GuestLocationSection({
 
         {showMessage && !showLocation && (
           <div className="mx-auto w-full max-w-2xl lg:max-w-3xl">{messageBlockFull}</div>
+        )}
+
+        {!showMessage && !showLocation && (
+          <div className="mx-auto w-full max-w-2xl text-center lg:text-left">
+            {ceremonyHeadingsMarkup}
+            <p className="mt-8 text-pretty text-sm font-light leading-relaxed text-charcoal-500 sm:text-base">
+              Os detalhes da cerimônia e da recepção serão atualizados em breve — volte mais tarde ou
+              confira o convite nas redes dos noivos.
+            </p>
+          </div>
         )}
       </div>
     </section>

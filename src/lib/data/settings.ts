@@ -3,7 +3,8 @@ import { join } from 'path'
 import { existsSync } from 'fs'
 import type { Settings } from '@/lib/types'
 
-const DATA_DIR = join(process.cwd(), 'data')
+/** JSON versionado em `src/lib/data/settings.json` (deploy Vercel). */
+const DATA_DIR = join(process.cwd(), 'src', 'lib', 'data')
 const SETTINGS_FILE = join(DATA_DIR, 'settings.json')
 
 const defaultSettings: Settings = {

@@ -83,16 +83,14 @@ export function InviteContent({ settings, faq }: InviteContentProps) {
         formattedDate={formattedDate}
       />
 
-      {/* 2. Mensagem aos convidados + data/horário + local (secção única) */}
-      {(settings.wedding_date || primaryLocation) && (
-        <GuestLocationSection
-          hasWeddingDate={Boolean(settings.wedding_date)}
-          weddingDayMonthLabel={weddingDayMonthLabel}
-          ceremonyTimeSpoken={ceremonyTimeSpoken}
-          location={primaryLocation}
-          formattedLocation={formattedLocation}
-        />
-      )}
+      {/* 2. Cerimônia & local — sempre presente (#cerimonia para a navbar); conteúdo completo depende das settings */}
+      <GuestLocationSection
+        hasWeddingDate={Boolean(settings.wedding_date)}
+        weddingDayMonthLabel={weddingDayMonthLabel}
+        ceremonyTimeSpoken={ceremonyTimeSpoken}
+        location={primaryLocation}
+        formattedLocation={formattedLocation}
+      />
 
       {/* 3. Gallery — zig-zag: nossa história em fotos */}
       <CouplePhotosSection />

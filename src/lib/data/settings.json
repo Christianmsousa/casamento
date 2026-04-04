@@ -1,0 +1,19 @@
+{
+  "wedding_date": "2026-11-14",
+  "ceremony_location": {
+    "address": "Chácara Caminho de Luz, Alameda Itaipava, 960, Joapiranga",
+    "cep": "13278-460",
+    "city": "Valinhos",
+    "state": "SP"
+  },
+  "reception_location": {
+    "address": "Chácara Caminho de Luz, Alameda Itaipava, 960, Joapiranga",
+    "cep": "13278-460",
+    "city": "Valinhos",
+    "state": "SP"
+  },
+  "couple_names": {
+    "person1": "Julia",
+    "person2": "Christian"
+  }
+}
