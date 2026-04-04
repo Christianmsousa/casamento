@@ -8,8 +8,6 @@ export type HeroOverlayProps = {
   hasWeddingDate: boolean
   /** Texto já formatado (só coluna desktop) */
   formattedDate?: string
-  /** Página /invite: mostra o parágrafo emotivo mesmo sem data (home não passa) */
-  showInviteTagline?: boolean
   bottomSlot?: ReactNode
 }
 
@@ -17,7 +15,6 @@ export function HeroOverlay({
   coupleName,
   hasWeddingDate,
   formattedDate,
-  showInviteTagline = false,
   bottomSlot,
 }: HeroOverlayProps) {
   return (
@@ -71,12 +68,10 @@ export function HeroOverlay({
               {coupleName}
             </h1>
 
-            {showInviteTagline && (
-              <p className="mt-7 text-pretty text-base font-light leading-relaxed text-white [text-shadow:0_1px_14px_rgba(0,0,0,0.55)] sm:text-lg">
-                Mal podemos esperar para celebrar convosco — cada detalhe foi
-                pensado com carinho para um dia que queremos guardar para sempre.
-              </p>
-            )}
+            <p className="mt-7 text-pretty text-base font-light leading-relaxed text-white [text-shadow:0_1px_14px_rgba(0,0,0,0.55)] sm:text-lg">
+              Mal podemos esperar para celebrar convosco — cada detalhe foi
+              pensado com carinho para um dia que queremos guardar para sempre.
+            </p>
 
             {!hasWeddingDate && bottomSlot && (
               <div className="mt-6 flex flex-col gap-5 sm:mt-8 sm:gap-6">{bottomSlot}</div>
@@ -117,12 +112,10 @@ export function HeroOverlay({
             <span className="h-px w-12 bg-gold-400/90 sm:w-16" />
           </div>
 
-          {showInviteTagline && (
-            <p className="mt-8 text-pretty text-lg font-light leading-relaxed text-charcoal-600 sm:text-xl sm:leading-relaxed">
-              Mal podemos esperar para celebrar convosco — cada detalhe foi
-              pensado com carinho para um dia que queremos guardar para sempre.
-            </p>
-          )}
+          <p className="mt-8 text-pretty text-lg font-light leading-relaxed text-charcoal-600 sm:text-xl sm:leading-relaxed">
+            Mal podemos esperar para celebrar convosco — cada detalhe foi
+            pensado com carinho para um dia que queremos guardar para sempre.
+          </p>
 
           {!hasWeddingDate && bottomSlot && (
             <div className="mt-10 w-full max-w-xl">{bottomSlot}</div>
