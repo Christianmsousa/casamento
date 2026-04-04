@@ -7,10 +7,10 @@ export default function NotFound() {
         <h1 className="text-4xl font-bold text-gray-900">404</h1>
         <p className="text-gray-600">Página não encontrada</p>
         <Link
-          href="/"
+          href="/invite"
           className="inline-block px-6 py-3 bg-terracota-500 text-white rounded-md hover:bg-terracota-600 transition-colors"
         >
-          Recarregar página
+          Voltar ao convite
         </Link>
       </div>
     </div>

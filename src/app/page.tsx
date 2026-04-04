@@ -1,14 +1,6 @@
-import { Navbar } from '@/lib/components/layout/navbar'
-import { HeroOverlay } from '@/lib/pages/invite/hero-section/HeroOverlay'
+import { redirect } from 'next/navigation'
 
+/** Raiz do site = convite completo (evita confundir `/` com `/invite`). */
 export default function HomePage() {
-  return (
-    <div className="min-h-screen bg-cream">
-      <Navbar />
-
-      <main id="home" className="relative">
-        <HeroOverlay coupleName="Julia & Christian" hasWeddingDate={false} />
-      </main>
-    </div>
-  )
+  redirect('/invite')
 }
