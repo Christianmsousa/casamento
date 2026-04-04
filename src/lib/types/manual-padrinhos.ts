@@ -1,5 +1,5 @@
 /**
- * Conteúdo de `data/manual-padrinhos.json`.
+ * Conteúdo de `src/lib/data/manual-padrinhos.json`.
  * Cada linha da lista é um array de partes; use `tone` para destacar trechos (cor).
  */
 export type ManualLineTone = 'body' | 'terracota' | 'navy'

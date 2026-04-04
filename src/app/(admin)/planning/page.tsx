@@ -21,7 +21,7 @@ export default function PlanningDashboard() {
           </Link>{' '}
           (secção Padrinhos). Para alterar os textos, edite{' '}
           <code className="rounded bg-terracota-100/80 px-1.5 py-0.5 text-xs text-charcoal-700">
-            data/manual-padrinhos.json
+            src/lib/data/manual-padrinhos.json
           </code>
           .
         </p>
