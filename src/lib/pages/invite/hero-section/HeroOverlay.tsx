@@ -50,10 +50,11 @@ export function HeroOverlay({
           className="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-t from-black/65 via-black/25 to-black/15"
           aria-hidden
         />
+        {/* Não usar pointer-events-none aqui: no iOS o scroll só “ligava” depois de tocar na navbar */}
         <div
-          className="relative z-[2] flex min-h-[100svh] w-full flex-col justify-end px-6 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.25rem))] pointer-events-none"
+          className="relative z-[2] flex min-h-[100svh] w-full flex-col justify-end px-6 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.25rem))]"
         >
-          <header className="mx-auto w-full max-w-lg shrink-0 pb-2 text-center pointer-events-auto">
+          <header className="mx-auto w-full max-w-lg shrink-0 pb-2 text-center">
             <p className="mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-white/85">
               O casamento de
             </p>
