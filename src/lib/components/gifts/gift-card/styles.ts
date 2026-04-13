@@ -4,7 +4,8 @@ export const giftCardVariants = cva(
   `
     group relative
     bg-white rounded-xl
-    border border-cream-200
+    border border-stone-200/80
+    shadow-sm
     overflow-hidden
     transition-all duration-300
     hover:shadow-md hover:border-terracota-200
@@ -15,7 +16,7 @@ export const giftCardVariants = cva(
       status: {
         available: 'hover:scale-[1.01]',
         reserved: 'opacity-70 border-gold-200',
-        purchased: 'opacity-50 border-cream-200',
+        purchased: 'opacity-50 border-stone-200',
       },
     },
     defaultVariants: {

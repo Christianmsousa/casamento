@@ -10,11 +10,6 @@ const contentItems: SideBarItemProps[] = [
     route: '/planning',
   },
   {
-    icon: 'users',
-    text: 'Convidados',
-    route: '/planning/guests',
-  },
-  {
     icon: 'settings',
     text: 'Configurações',
     route: '/planning/settings',

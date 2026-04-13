@@ -25,6 +25,7 @@ export async function POST(request: NextRequest) {
       name: body.name,
       description: body.description,
       category: body.category || 'outros',
+      offeringType: body.offeringType ?? 'repeatable',
       price: body.price,
       priceRange: body.priceRange,
       imageUrl: body.imageUrl,

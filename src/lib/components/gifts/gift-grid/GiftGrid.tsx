@@ -2,6 +2,8 @@
 
 import { GiftGridProps } from './types'
 import { GiftCard } from '../gift-card'
+import { Icon } from '@/lib/components/icons'
+import { RevealOnScroll } from '@/lib/components/motion'
 
 export function GiftGrid({
   gifts,
@@ -32,19 +34,7 @@ export function GiftGrid({
     return (
       <div className="text-center py-12 md:py-16 lg:py-20">
         <div className="inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 rounded-full bg-terracota-50 mb-4 md:mb-6">
-          <svg
-            className="w-8 h-8 md:w-10 md:h-10 text-terracota-400"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
-            />
-          </svg>
+          <Icon.GiftOutline width="2.5rem" height="2.5rem" className="text-terracota-400" />
         </div>
         <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
           Nenhum presente encontrado
@@ -58,12 +48,10 @@ export function GiftGrid({
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 md:gap-5 lg:gap-6 xl:gap-6 2xl:gap-7">
-      {gifts.map((gift) => (
-        <GiftCard
-          key={gift.id}
-          gift={gift}
-          onReserve={onReserve}
-        />
+      {gifts.map((gift, index) => (
+        <RevealOnScroll key={gift.id} delayMs={Math.min(index * 45, 400)}>
+          <GiftCard gift={gift} onReserve={onReserve} />
+        </RevealOnScroll>
       ))}
     </div>
   )

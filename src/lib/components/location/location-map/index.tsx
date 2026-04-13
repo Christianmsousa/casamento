@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { buildLocationString } from '@/lib/utils/location'
 import type { LocationDetails } from '@/lib/types/settings'
+import { Icon } from '@/lib/components/icons'
 
 interface LocationMapProps {
   location: string | LocationDetails
@@ -50,10 +51,7 @@ export function LocationMap({ location, title }: LocationMapProps) {
               <div className="absolute inset-0 flex items-center justify-center">
                 {/* Ícone de localização centralizado */}
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-gray-300 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 md:w-8 md:h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
+                  <Icon.Location width="1.5rem" height="1.5rem" className="md:w-8 md:h-8 text-gray-400" />
                 </div>
               </div>
               
@@ -89,9 +87,7 @@ export function LocationMap({ location, title }: LocationMapProps) {
           onClick={handleStartNavigation}
           className="flex-1 inline-flex items-center justify-center gap-1.5 md:gap-2 px-3 md:px-4 py-2 md:py-2.5 bg-terracota-600 text-white rounded-lg font-medium text-xs md:text-sm hover:bg-terracota-700 active:bg-terracota-800 transition-all duration-200 shadow-md hover:shadow-lg"
         >
-          <svg className="w-3.5 h-3.5 md:w-4 md:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-          </svg>
+          <Icon.Navigation width="0.875rem" height="0.875rem" className="md:w-4 md:h-4" />
           <span>Google Maps</span>
         </button>
         <a

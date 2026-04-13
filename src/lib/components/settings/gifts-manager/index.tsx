@@ -10,12 +10,13 @@ import { FormSelect, type SelectOption } from '@/lib/components/form/FormSelect'
 import { FormNumberInput } from '@/lib/components/form/FormNumberInput'
 import { FormMoneyInput } from '@/lib/components/form/FormMoneyInput'
 import { Icon } from '@/lib/components/icons'
-import type { Gift, GiftCategory, PriceRange } from '@/lib/types/gift'
+import type { Gift, GiftCategory, PriceRange, OfferingType } from '@/lib/types/gift'
 
 interface GiftFormData {
   name: string
   description: string
   category: GiftCategory
+  offeringType: OfferingType
   price: string // FormMoneyInput retorna string formatada
   priceRange: PriceRange | ''
   imageUrl: string
@@ -43,6 +44,7 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
       name: '',
       description: '',
       category: 'outros',
+      offeringType: 'repeatable',
       price: '',
       priceRange: '',
       imageUrl: '',
@@ -66,6 +68,7 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
         name: initialGift.name,
         description: initialGift.description || '',
         category: initialGift.category,
+        offeringType: initialGift.offeringType ?? 'repeatable',
         price: initialGift.price ? Math.round(initialGift.price * 100).toString() : '',
         priceRange: initialGift.priceRange || '',
         imageUrl: initialGift.imageUrl || '',
@@ -98,8 +101,8 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
         name: data.name,
         description: data.description || undefined,
         category: data.category,
-        // FormMoneyInput retorna o valor unmasked (sem formatação)
-        price: data.price ? Number(data.price) / 100 : undefined, // Divide por 100 porque o mask retorna em centavos
+        offeringType: data.offeringType,
+        price: data.price ? Number(data.price) / 100 : undefined,
         priceRange: data.priceRange || undefined,
         imageUrl: data.imageUrl || undefined,
         storeUrl: data.storeUrl || undefined,
@@ -110,26 +113,22 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
       }
 
       if (editingGift) {
-        // Atualizar presente existente
         const response = await fetch(`/api/gifts/${editingGift.id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(giftData),
         })
-
         if (response.ok) {
           await loadGifts()
           resetForm()
           onClose?.()
         }
       } else {
-        // Criar novo presente
         const response = await fetch('/api/gifts', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(giftData),
         })
-
         if (response.ok) {
           await loadGifts()
           resetForm()
@@ -147,7 +146,7 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
       name: gift.name,
       description: gift.description || '',
       category: gift.category,
-      // FormMoneyInput espera valor em centavos (sem formatação)
+      offeringType: gift.offeringType ?? 'repeatable',
       price: gift.price ? Math.round(gift.price * 100).toString() : '',
       priceRange: gift.priceRange || '',
       imageUrl: gift.imageUrl || '',
@@ -162,15 +161,9 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
 
   const handleDelete = async (id: string) => {
     if (!confirm('Tem certeza que deseja excluir este presente?')) return
-
     try {
-      const response = await fetch(`/api/gifts/${id}`, {
-        method: 'DELETE',
-      })
-
-      if (response.ok) {
-        await loadGifts()
-      }
+      const response = await fetch(`/api/gifts/${id}`, { method: 'DELETE' })
+      if (response.ok) await loadGifts()
     } catch (error) {
       console.error('Erro ao excluir presente:', error)
     }
@@ -183,6 +176,7 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
       name: '',
       description: '',
       category: 'outros',
+      offeringType: 'repeatable',
       price: '',
       priceRange: '',
       imageUrl: '',
@@ -205,11 +199,19 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
     { value: 'outros', label: 'Outros' },
   ]
 
-  const priceRangeOptions: SelectOption[] = [
-    { value: 'baixo', label: 'Baixo' },
-    { value: 'medio', label: 'Médio' },
-    { value: 'alto', label: 'Alto' },
+  const offeringTypeOptions: SelectOption[] = [
+    { value: 'repeatable', label: 'Vários podem presentear' },
+    { value: 'unique', label: 'Presente único' },
   ]
+
+  const priceRangeOptions: SelectOption[] = [
+    { value: 'baixo', label: 'Baixo (até R$ 100)' },
+    { value: 'medio', label: 'Médio (R$ 100–500)' },
+    { value: 'alto', label: 'Alto (acima de R$ 500)' },
+  ]
+
+  // watch não usado mas mantido para compatibilidade futura
+  void watch
 
   if (loading) {
     return <div className="text-center py-4 text-xs text-neutral-600">Carregando presentes...</div>
@@ -219,9 +221,7 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
     <div className="space-y-6">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h3 className="text-sm font-semibold text-neutral-900">
-            Lista de Presentes
-          </h3>
+          <h3 className="text-sm font-semibold text-neutral-900">Lista de Presentes</h3>
           <p className="mt-1 text-xs text-neutral-600">
             {gifts.length === 0
               ? 'Nenhum presente cadastrado'
@@ -282,6 +282,14 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
                 icon={<Icon.Category width="1.25rem" height="1.25rem" className="text-neutral-light-600" />}
               />
 
+              <FormSelect
+                name="offeringType"
+                label="Tipo de presente"
+                control={control}
+                options={offeringTypeOptions}
+                icon={<Icon.Gift width="1.25rem" height="1.25rem" className="text-neutral-light-600" />}
+              />
+
               <FormNumberInput
                 name="priority"
                 label="Prioridade"
@@ -326,7 +334,7 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
 
               <FormTextInput
                 name="imageUrl"
-                label="URL da Imagem"
+                label="URL da foto (card)"
                 control={control}
                 type="url"
                 placeholder="https://..."
@@ -335,11 +343,20 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
 
               <FormTextInput
                 name="referenceUrl"
-                label="URL de Referência"
+                label="URL de Referência (sugestão)"
                 control={control}
                 type="url"
                 placeholder="https://..."
                 icon={<Icon.ExternalLink width="1.25rem" height="1.25rem" className="text-neutral-light-600" />}
+              />
+
+              <FormTextInput
+                name="referenceImageUrl"
+                label="URL da imagem de referência (fallback)"
+                control={control}
+                type="url"
+                placeholder="https://..."
+                icon={<Icon.Upload width="1.25rem" height="1.25rem" className="text-neutral-light-600" />}
               />
             </div>
 
@@ -362,89 +379,32 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
           </div>
         ) : (
           gifts.map((gift) => {
-            const badges: Array<{
-              label: string
-              variant?: 'default' | 'success' | 'warning' | 'info'
-            }> = [
-              {
-                label: gift.category.charAt(0).toUpperCase() + gift.category.slice(1),
-                variant: 'default',
-              },
-            ]
-
-            if (gift.status === 'reserved') {
-              badges.push({
-                label: 'Reservado',
-                variant: 'warning',
-              })
-            }
-
-            if (gift.status === 'purchased') {
-              badges.push({
-                label: 'Comprado',
-                variant: 'success',
-              })
-            }
-
-            const metadata: Array<{ label: string; value: string | number }> = []
-            if (gift.price) {
-              metadata.push({
-                label: 'Preço',
-                value: `R$ ${gift.price.toFixed(2)}`,
-              })
-            }
-            if (gift.priceRange) {
-              metadata.push({
-                label: 'Faixa',
-                value: gift.priceRange.charAt(0).toUpperCase() + gift.priceRange.slice(1),
-              })
-            }
-            if ((gift.priority ?? 0) > 0) {
-              metadata.push({
-                label: 'Prioridade',
-                value: gift.priority ?? 0,
-              })
-            }
-
-            const badgeVariants = {
-              default: 'bg-neutral-100 text-neutral-700',
-              success: 'bg-green-100 text-green-700',
-              warning: 'bg-yellow-100 text-yellow-700',
-              info: 'bg-blue-100 text-blue-700',
-            }
-
-            // Monta a descrição com metadados
             const metadataParts: string[] = []
-            if (gift.price) {
-              metadataParts.push(`R$ ${gift.price.toFixed(2)}`)
-            }
-            if (gift.priceRange) {
+            if (gift.price) metadataParts.push(`R$ ${gift.price.toFixed(2)}`)
+            if (gift.priceRange)
               metadataParts.push(
                 `Faixa: ${gift.priceRange.charAt(0).toUpperCase() + gift.priceRange.slice(1)}`
               )
-            }
-            if ((gift.priority ?? 0) > 0) {
-              metadataParts.push(`Prioridade: ${gift.priority}`)
-            }
+            if ((gift.priority ?? 0) > 0) metadataParts.push(`Prioridade: ${gift.priority}`)
 
-            const categoryLabel =
-              gift.category.charAt(0).toUpperCase() + gift.category.slice(1)
+            const categoryLabel = gift.category.charAt(0).toUpperCase() + gift.category.slice(1)
             const statusLabel =
               gift.status === 'reserved'
                 ? ' • Reservado'
                 : gift.status === 'purchased'
                   ? ' • Comprado'
                   : ''
+            const offeringLabel =
+              gift.offeringType === 'unique' ? ' • Presente único' : ' • Vários podem presentear'
 
             const description = [
               gift.description,
-              categoryLabel + statusLabel,
+              categoryLabel + statusLabel + offeringLabel,
               metadataParts.length > 0 ? metadataParts.join(' • ') : null,
             ]
               .filter(Boolean)
               .join('\n')
 
-            // Monta as ações
             const actions: ItemAction[] = [
               {
                 icon: 'Edit',
@@ -474,4 +434,3 @@ export function GiftsManager(props: GiftsManagerProps = {}) {
     </div>
   )
 }
-

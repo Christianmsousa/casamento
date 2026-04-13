@@ -1,6 +1,7 @@
 import { manualPadrinhos } from '@/lib/data/manual-padrinhos'
 import { ManualPadrinhosSection } from '@/lib/components/invite/manual-padrinhos-section'
-import { CouplePhotosSection } from '@/lib/components/invite/couple-photos-section'
+import { RevealOnScroll } from '@/lib/components/motion'
+import { CouplePhotosSection } from './couple-photos-section'
 import { formatLocationForDisplay } from '@/lib/utils/location'
 import { GuestLocationSection } from './guest-location-section'
 import {
@@ -84,25 +85,37 @@ export function InviteContent({ settings, faq }: InviteContentProps) {
       />
 
       {/* 2. Cerimônia & local — sempre presente (#cerimonia para a navbar); conteúdo completo depende das settings */}
-      <GuestLocationSection
-        hasWeddingDate={Boolean(settings.wedding_date)}
-        weddingDayMonthLabel={weddingDayMonthLabel}
-        ceremonyTimeSpoken={ceremonyTimeSpoken}
-        location={primaryLocation}
-        formattedLocation={formattedLocation}
-      />
+      <RevealOnScroll className="w-full">
+        <GuestLocationSection
+          hasWeddingDate={Boolean(settings.wedding_date)}
+          weddingDayMonthLabel={weddingDayMonthLabel}
+          ceremonyTimeSpoken={ceremonyTimeSpoken}
+          location={primaryLocation}
+          formattedLocation={formattedLocation}
+        />
+      </RevealOnScroll>
 
       {/* 3. Gallery — zig-zag: nossa história em fotos */}
-      <CouplePhotosSection />
+      <RevealOnScroll className="w-full">
+        <CouplePhotosSection />
+      </RevealOnScroll>
 
       {/* 4. Dress Code — madrinhas e padrinhos, alternado */}
-      <ManualPadrinhosSection data={manualPadrinhos} />
+      <RevealOnScroll className="w-full">
+        <ManualPadrinhosSection data={manualPadrinhos} />
+      </RevealOnScroll>
 
       {/* 5. FAQ */}
-      {faq && <FAQSection content={faq} />}
+      {faq && (
+        <RevealOnScroll className="w-full">
+          <FAQSection content={faq} />
+        </RevealOnScroll>
+      )}
 
       {/* 6. CTA Presentes */}
-      <GiftsSection />
+      <RevealOnScroll className="w-full">
+        <GiftsSection />
+      </RevealOnScroll>
     </>
   )
 }

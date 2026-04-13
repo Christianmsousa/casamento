@@ -52,7 +52,7 @@ export function HeroOverlay({
         />
         {/* Não usar pointer-events-none aqui: no iOS o scroll só “ligava” depois de tocar na navbar */}
         <div
-          className="relative z-[2] flex min-h-[100svh] w-full flex-col justify-end px-6 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(5.5rem,calc(env(safe-area-inset-bottom)+4.25rem))]"
+          className="relative z-[2] flex min-h-[100svh] w-full flex-col justify-end px-6 pt-[max(0.75rem,env(safe-area-inset-top))] pb-[max(5.75rem,calc(env(safe-area-inset-bottom)+5.5rem))]"
         >
           <header className="mx-auto w-full max-w-lg shrink-0 pb-2 text-center">
             <p className="mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-white/85">

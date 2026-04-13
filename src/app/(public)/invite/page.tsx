@@ -9,7 +9,7 @@ export default async function InvitePage() {
   const { settings, faq } = await useInviteData()
 
   return (
-    <div className="min-h-screen bg-white pb-16 md:pb-0 relative">
+    <div className="relative min-h-screen bg-white pb-[calc(5.5rem+env(safe-area-inset-bottom,0px))] md:pb-0">
       <div className="relative z-10">
       <Suspense fallback={null}>
         <HashScrollHandler />

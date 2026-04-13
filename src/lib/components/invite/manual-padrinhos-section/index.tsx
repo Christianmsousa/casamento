@@ -110,7 +110,7 @@ export function ManualPadrinhosSection({
         className="mt-6 rounded-xl border border-terracota-100/80 bg-white/90 px-4 py-6 sm:px-6 sm:py-8"
       >
         <div className="space-y-4">
-          <h2 className="font-serif text-xl text-charcoal-800">Manual dos padrinhos</h2>
+          <h2 className="font-serif text-xl text-charcoal-800">Padrinhos</h2>
           {data.intro.map((parts, i) => (
             <RichParagraph
               key={`intro-compact-${i}`}
@@ -126,7 +126,7 @@ export function ManualPadrinhosSection({
   return (
     <section
       {...(sectionId ? { id: sectionId } : {})}
-      aria-labelledby="manual-padrinhos-heading"
+      aria-labelledby="padrinhos-heading"
       className="scroll-mt-16 border-t border-gold-200/45 bg-white px-6 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-16 lg:gap-24 xl:max-w-7xl">
@@ -135,11 +135,11 @@ export function ManualPadrinhosSection({
             Para os nossos
           </p>
           <h2
-            id="manual-padrinhos-heading"
+            id="padrinhos-heading"
             className="mb-5 font-serif text-charcoal-800"
             style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}
           >
-            Manual dos padrinhos
+            Padrinhos
           </h2>
           <div className="mb-8 flex items-center justify-center gap-3">
             <div className="h-px w-12 bg-gold-400" />

@@ -38,6 +38,17 @@ const statusConfig = {
   },
 }
 
+const offeringTypeConfig = {
+  unique: {
+    label: 'Presente único',
+    className: 'bg-terracota-50 text-terracota-700 border border-terracota-200',
+  },
+  repeatable: {
+    label: 'Vários podem presentear',
+    className: 'bg-cream-200 text-charcoal-600 border border-cream-300',
+  },
+}
+
 export function GiftCard({ gift, onReserve }: GiftCardProps) {
   const handleReserve = (e: React.MouseEvent) => {
     e.stopPropagation()
@@ -45,26 +56,27 @@ export function GiftCard({ gift, onReserve }: GiftCardProps) {
   }
 
   const status = statusConfig[gift.status]
+  // imageUrl é canónico; referenceImageUrl é fallback legado
+  const imageSrc = gift.imageUrl ?? gift.referenceImageUrl
+  const offeringType = gift.offeringType ?? 'repeatable'
+  // "Ver sugestão" usa referenceUrl (dica/afiliado); storeUrl como fallback
+  const suggestionUrl = gift.referenceUrl ?? gift.storeUrl
 
   return (
     <div className={cn(giftCardVariants({ status: gift.status }))}>
 
-      {/* Imagem */}
-      <div className="relative w-full h-48 md:h-52 bg-cream-100 overflow-hidden">
-        {gift.referenceImageUrl ? (
-          <Image
-            src={gift.referenceImageUrl}
-            alt={gift.name}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
-          />
-        ) : gift.imageUrl ? (
-          <Image
-            src={gift.imageUrl}
-            alt={gift.name}
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-500"
-          />
+      {/* Imagem — object-contain para o produto aparecer inteiro; faixa creme nas “letterboxes” */}
+      <div className="relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-b from-cream-50 to-cream-100">
+        {imageSrc ? (
+          <div className="absolute inset-2 sm:inset-3">
+            <Image
+              src={imageSrc}
+              alt={gift.name}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-contain object-center transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+            />
+          </div>
         ) : (
           <div className="flex h-full w-full items-center justify-center bg-cream-200">
             <Icon.Heart width="3.5rem" height="3.5rem" className="text-terracota-200" />
@@ -73,86 +85,84 @@ export function GiftCard({ gift, onReserve }: GiftCardProps) {
 
         {/* Badge status */}
         <div className="absolute top-3 right-3">
-          <span className={cn('px-2 py-1 rounded-full text-[10px] font-medium', status.badge)}>
+          <span className={cn('rounded-full px-2.5 py-1 text-xs font-medium', status.badge)}>
             {status.label}
           </span>
         </div>
 
         {/* Badge categoria */}
         <div className="absolute top-3 left-3">
-          <span className="px-2 py-1 rounded-full text-[10px] font-medium tracking-wide bg-white/90 backdrop-blur-sm text-charcoal-600 border border-cream-200">
+          <span className="rounded-full border border-cream-200 bg-white/90 px-2.5 py-1 text-xs font-medium tracking-wide text-charcoal-600 backdrop-blur-sm">
             {categoryLabels[gift.category] || gift.category}
           </span>
         </div>
       </div>
 
       {/* Conteúdo */}
-      <div className="flex-1 p-4 flex flex-col">
-        <h3 className="text-sm font-semibold text-charcoal-800 mb-1.5 line-clamp-2 leading-snug">
+      <div className="flex flex-1 flex-col p-5">
+        <h3 className="mb-2 line-clamp-2 text-base font-semibold leading-snug text-charcoal-800">
           {gift.name}
         </h3>
 
         {gift.description && (
-          <p className="text-xs text-charcoal-500 mb-2 line-clamp-2 flex-1 leading-relaxed">
+          <p className="mb-2 line-clamp-3 flex-1 text-sm leading-relaxed text-charcoal-600">
             {gift.description}
           </p>
         )}
 
         {/* Preço */}
-        <div className="mb-3">
+        <div className="mb-2">
           {gift.price ? (
-            <p className="text-sm font-semibold text-terracota-600">
+            <p className="text-base font-semibold text-terracota-600">
               R$ {gift.price.toLocaleString('pt-BR', { minimumFractionDigits: 2 })}
             </p>
           ) : gift.priceRange ? (
-            <p className="text-xs text-terracota-600 font-medium">
+            <p className="text-sm font-semibold text-terracota-600">
               {priceRangeLabels[gift.priceRange]}
             </p>
           ) : null}
         </div>
 
+        {/* Badge offeringType */}
+        <div className="mb-3">
+          <span
+            className={cn(
+              'inline-flex rounded-full px-2.5 py-1 text-xs font-medium',
+              offeringTypeConfig[offeringType].className
+            )}
+          >
+            {offeringTypeConfig[offeringType].label}
+          </span>
+        </div>
+
         {/* Reservado por */}
         {gift.status === 'reserved' && gift.reservedBy && (
-          <p className="text-[10px] text-charcoal-400 mb-3">
+          <p className="mb-3 text-xs text-charcoal-500">
             Reservado por {gift.reservedBy.guestName}
           </p>
         )}
 
         {/* Botões */}
-        <div className="flex flex-col gap-2 mt-auto">
-          {gift.status === 'available' && onReserve && (
+        <div className="mt-auto flex flex-col gap-2.5">
+          {gift.status === 'available' && (
             <Button
               text="Presentear"
-              onClick={handleReserve}
-              className="w-full text-xs py-2"
+              onClick={onReserve ? handleReserve : undefined}
+              disabled={!onReserve}
+              size="lg"
               variant="primary"
             />
           )}
-          {gift.referenceUrl && (
+          {suggestionUrl && (
             <Button
-              text="Ver Dica"
-              iconLeft={
-                <svg
-                  className="h-3 w-3"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              }
+              text="Ver sugestão"
+              iconLeft={<Icon.ExternalLink width="0.875rem" height="0.875rem" />}
               onClick={(e) => {
                 e.stopPropagation()
-                window.open(gift.referenceUrl, '_blank', 'noopener,noreferrer')
+                window.open(suggestionUrl, '_blank', 'noopener,noreferrer')
               }}
+              size="lg"
               variant="outline"
-              className="w-full text-xs py-1.5"
             />
           )}
         </div>

@@ -129,19 +129,26 @@ export function GuestLocationSection({
 
         {showMessage && showLocation && (
           <div className="mx-auto w-full max-w-6xl xl:max-w-7xl">
-            <div className="mb-10 w-full lg:mb-12">{ceremonyHeadingsMarkup}</div>
-
-            <div className="flex w-full flex-col gap-10 lg:flex-row lg:items-start lg:gap-16 xl:gap-24">
-              <div className="min-w-0 flex-1">{ceremonyBody}</div>
-              <div className="hidden lg:block">{mapColumn}</div>
+            {/* Mobile: títulos em largura total, corpo, depois mapa */}
+            <div className="lg:hidden">
+              <div className="mb-10 w-full sm:mb-12">{ceremonyHeadingsMarkup}</div>
+              {ceremonyBody}
+              <div className="mx-auto mt-10 w-full">
+                <LocationSectionMobile
+                  location={location}
+                  formattedLocation={formattedLocation}
+                  omitEventHeading
+                />
+              </div>
             </div>
 
-            <div className="mx-auto mt-10 w-full lg:hidden">
-              <LocationSectionMobile
-                location={location}
-                formattedLocation={formattedLocation}
-                omitEventHeading
-              />
+            {/* Desktop: mesma linha de topo — coluna esquerda (títulos + corpo) | mapa */}
+            <div className="hidden w-full lg:flex lg:flex-row lg:items-start lg:gap-16 xl:gap-24">
+              <div className="flex min-w-0 flex-1 flex-col gap-8 lg:gap-10">
+                {ceremonyHeadingsMarkup}
+                {ceremonyBody}
+              </div>
+              {mapColumn}
             </div>
           </div>
         )}

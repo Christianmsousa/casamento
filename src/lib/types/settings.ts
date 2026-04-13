@@ -17,5 +17,9 @@ export interface Settings {
     person1: string
     person2: string
   }
+  gifts_whatsapp?: string // Só dígitos E.164 sem '+', ex: 551998949240
+  pix_copy_paste?: string // Código PIX copia-e-cola
+  pix_qr_image?: string // Path local (/images/...) ou URL externa da imagem QR
+  pix_note?: string // Nota exibida junto ao PIX (ex: "Nome no PIX: Julia e Christian")
 }
 

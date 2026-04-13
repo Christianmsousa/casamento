@@ -1,5 +1,4 @@
-export type { Guest } from './guest'
-export type { Gift, GiftCategory, GiftStatus, PriceRange } from './gift'
+export type { Gift, GiftCategory, GiftStatus, PriceRange, OfferingType, GiftFilters } from './gift'
 export type { Settings, LocationDetails } from './settings'
 export type {
   ManualPadrinhosData,

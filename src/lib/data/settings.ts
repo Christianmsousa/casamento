@@ -15,6 +15,7 @@ const defaultSettings: Settings = {
     person1: '',
     person2: '',
   },
+  gifts_whatsapp: '551998949240',
 }
 
 async function ensureDataDir() {
@@ -42,6 +43,10 @@ export async function getSettings(): Promise<Settings> {
         person1: parsed.couple_names?.person1 || parsed.coupleNames?.person1 || '',
         person2: parsed.couple_names?.person2 || parsed.coupleNames?.person2 || '',
       },
+      gifts_whatsapp: parsed.gifts_whatsapp || parsed.giftsWhatsapp || '551998949240',
+      pix_copy_paste: parsed.pix_copy_paste || parsed.pixCopyPaste || undefined,
+      pix_qr_image: parsed.pix_qr_image || parsed.pix_qr_image_path || parsed.pix_qr_image_url || undefined,
+      pix_note: parsed.pix_note || parsed.pixNote || undefined,
     }
   } catch (error) {
     console.error('Error reading settings:', error)

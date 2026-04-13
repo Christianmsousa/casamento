@@ -17,6 +17,7 @@ import { HeartOutlineIcon } from './HeartOutlineIcon'
 import { ArrowRightIcon } from './ArrowRightIcon'
 import { CoupleFrameIcon } from './CoupleFrameIcon'
 import { GiftIcon } from './GiftIcon'
+import { GiftOutlineIcon } from './GiftOutlineIcon'
 import { NavHomeIcon } from './NavHomeIcon'
 
 // Ícones adicionais do outro projeto
@@ -78,6 +79,8 @@ import AddressIcon from './AddressIcon'
 import CartIcon from './CartIcon'
 import ShareIcon from './ShareIcon'
 import StockMovementIcon from './StockMovementIcon'
+import { ArrowUpIcon } from './ArrowUpIcon'
+import { NavigationIcon } from './NavigationIcon'
 
 export interface IconProps extends React.SVGProps<SVGSVGElement> {
   height?: string
@@ -163,6 +166,8 @@ export type IconName =
   | 'add-circle'
   | 'shield'
   | 'menu'
+  | 'arrow-up'
+  | 'navigation'
 
 export const Icon = {
   // Ícones do projeto casamento
@@ -182,6 +187,7 @@ export const Icon = {
   ArrowRight: ArrowRightIcon,
   CoupleFrame: CoupleFrameIcon,
   Gift: GiftIcon,
+  GiftOutline: GiftOutlineIcon,
   NavHome: NavHomeIcon,
   // Ícones adicionais
   Store: StoreIcon,
@@ -243,6 +249,8 @@ export const Icon = {
   Handshake: HandshakeIcon,
   Representative: HandshakeIcon,
   StockMovement: StockMovementIcon,
+  ArrowUp: ArrowUpIcon,
+  Navigation: NavigationIcon,
 }
 
 // Função utilitária para renderizar ícones dinamicamente (centralizada)
@@ -332,6 +340,8 @@ export const renderIcon = (
     menu: 'Menu',
     handshake: 'Handshake',
     'stock-movement': 'StockMovement',
+    'arrow-up': 'ArrowUp',
+    navigation: 'Navigation',
   }
 
   const iconKey = iconMap[iconName] || fallback

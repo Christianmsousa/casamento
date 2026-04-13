@@ -1,4 +1,5 @@
 import { GiftsSectionProps } from './types'
+import { Icon } from '@/lib/components/icons'
 
 export function GiftsSection({}: GiftsSectionProps) {
   return (
@@ -10,16 +11,7 @@ export function GiftsSection({}: GiftsSectionProps) {
 
         {/* Ícone decorativo */}
         <div className="w-14 h-14 rounded-full bg-white shadow-sm border border-terracota-100 flex items-center justify-center">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-7 h-7 text-terracota-500"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.5}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-          </svg>
+          <Icon.GiftOutline width="1.75rem" height="1.75rem" className="text-terracota-500" />
         </div>
 
         <p className="text-[0.65rem] sm:text-xs font-medium tracking-[0.25em] text-gold-600 uppercase">
@@ -48,16 +40,7 @@ export function GiftsSection({}: GiftsSectionProps) {
           className="inline-flex items-center justify-center gap-3 px-8 py-3.5 bg-terracota-600 text-white rounded-xl font-medium text-sm sm:text-base hover:bg-terracota-700 active:bg-terracota-800 transition-all duration-200 shadow-md hover:shadow-lg mt-2"
         >
           Ver lista de presentes
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-4 h-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-          </svg>
+          <Icon.ArrowRight width="1rem" height="1rem" />
         </a>
 
       </div>

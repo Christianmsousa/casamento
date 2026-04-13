@@ -1,5 +1,28 @@
 import type { ManualPadrinhosData } from '@/lib/types/manual-padrinhos'
-import raw from './manual-padrinhos.json'
 
-/** Dados do manual dos padrinhos (fonte: `manual-padrinhos.json` nesta pasta). */
-export const manualPadrinhos: ManualPadrinhosData = raw as ManualPadrinhosData
+export const manualPadrinhos: ManualPadrinhosData = {
+  intro: [
+    [{ text: 'Nossa cerimônia terá início às ' }, { text: '16h00', tone: 'terracota' }, { text: '.' }],
+    [{ text: 'Madrinhas e padrinhos devem chegar às ' }, { text: '15h30', tone: 'terracota' }, { text: ', com ' }, { text: '30 minutos', tone: 'terracota' }, { text: ' de antecedência ao início da cerimônia.' }],
+    [{ text: 'Pedimos, com carinho, que sejam ' }, { text: 'pontuais', tone: 'terracota' }, { text: ' para que possamos compartilhar ' }, { text: 'cada momento juntos', tone: 'terracota' }, { text: '.' }],
+    [{ text: 'Para qualquer dúvida, fiquem à vontade para nos chamar no ' }, { text: 'WhatsApp', tone: 'terracota' }, { text: '.' }],
+    [{ text: 'A confirmação de presença poderá ser realizada até ' }, { text: '30 dias', tone: 'terracota' }, { text: ' antes do casamento.' }],
+    [{ text: 'Nossa ' }, { text: 'cerimonialista', tone: 'terracota' }, { text: ' entrará em contato com vocês com todas as orientações.' }],
+  ],
+  dress: {
+    title: 'Vestido',
+    lines: [
+      [{ text: 'Vestido em tons de ' }, { text: 'terracota', tone: 'terracota' }, { text: '.' }],
+      [{ text: 'Comprimento à escolha — midi ou longo.' }],
+      [{ text: 'Enviamos uma gravata para referência da cor!' }],
+    ],
+  },
+  suit: {
+    title: 'Traje',
+    lines: [
+      [{ text: 'Traje em tons de ' }, { text: 'azul-marinho', tone: 'navy' }, { text: '.' }],
+      [{ text: 'Terno social, com ou sem colete.' }],
+      [{ text: 'A gravata será fornecida por nós e deverá ser utilizada.' }],
+    ],
+  },
+}

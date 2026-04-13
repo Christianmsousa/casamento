@@ -109,7 +109,13 @@ export function SettingsPageClient() {
     {
       id: 'gifts',
       label: 'Lista de Presentes',
-      content: <GiftsTab />,
+      content: (
+        <GiftsTab
+          settings={settings}
+          saving={saving}
+          onSaveSettings={handleSaveSettings}
+        />
+      ),
     },
   ]
 

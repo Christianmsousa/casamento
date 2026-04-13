@@ -1,6 +1,8 @@
 import { GiftsPageContentProps } from './types'
 import { GiftGrid, GiftFilters } from '@/lib/components/gifts'
-import { Icon } from '@/lib/components/icons'
+import { PixBlock } from '@/lib/components/gifts/pix-block'
+import { RevealOnScroll } from '@/lib/components/motion'
+import { GiftsPageHero } from './GiftsPageHero'
 
 export function GiftsPageMobile({
   gifts,
@@ -9,56 +11,40 @@ export function GiftsPageMobile({
   filteredGifts,
   onFiltersChange,
   onReserve,
+  pixSettings,
 }: GiftsPageContentProps) {
   return (
     <div className="lg:hidden">
-      <section className="bg-cream pt-24 pb-12 px-4 sm:px-6">
+      <section className="border-t border-gold-200/45 bg-cream-50 px-6 pt-24 pb-14 sm:px-8 sm:pb-20">
         <div className="max-w-7xl mx-auto">
 
-          {/* Header */}
-          <div className="text-center mb-10 sm:mb-12">
-            <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white shadow-sm border border-terracota-100 mb-5">
-              <Icon.Gift width="1.75rem" height="1.75rem" className="text-terracota-500" />
-            </div>
-
-            <p className="text-[0.65rem] sm:text-xs font-medium tracking-[0.25em] text-gold-600 uppercase mb-3">
-              Para vocês
-            </p>
-
-            <h1
-              className="font-serif text-charcoal-800 mb-4"
-              style={{ fontSize: 'clamp(1.8rem, 8vw, 2.8rem)' }}
-            >
-              Lista de Presentes
-            </h1>
-
-            <div className="flex items-center justify-center gap-3 mb-5">
-              <div className="h-px w-10 bg-gold-400" />
-              <div className="w-1 h-1 rounded-full bg-gold-500" />
-              <div className="h-px w-10 bg-gold-400" />
-            </div>
-
-            <p className="text-sm sm:text-base text-charcoal-500 font-light leading-relaxed max-w-lg mx-auto">
-              Sua presença é o maior presente. Se desejar nos presentear além disso, temos essas sugestões e ficaremos muito felizes.
-            </p>
-          </div>
+          <GiftsPageHero />
 
           {/* Filtros */}
-          <div className="mb-7 sm:mb-8">
+          <RevealOnScroll className="mb-7 sm:mb-8 block">
             <GiftFilters filters={filters} onFiltersChange={onFiltersChange} />
-          </div>
+          </RevealOnScroll>
 
           {/* Contador */}
           {!loading && (
-            <div className="mb-5 text-sm text-charcoal-500">
-              {filteredGifts.length === 1
-                ? '1 presente encontrado'
-                : `${filteredGifts.length} presentes encontrados`}
-            </div>
+            <RevealOnScroll className="mb-5 block">
+              <div className="text-base font-medium text-charcoal-600">
+                {filteredGifts.length === 1
+                  ? '1 presente encontrado'
+                  : `${filteredGifts.length} presentes encontrados`}
+              </div>
+            </RevealOnScroll>
           )}
 
           {/* Grid */}
           <GiftGrid gifts={filteredGifts} onReserve={onReserve} loading={loading} />
+
+          {/* Bloco PIX */}
+          {pixSettings && (
+            <RevealOnScroll className="mt-10 block sm:mt-12">
+              <PixBlock pix={pixSettings} />
+            </RevealOnScroll>
+          )}
         </div>
       </section>
     </div>

@@ -319,6 +319,68 @@ body {
   animation: slide-up 0.6s ease-out forwards;
 }
 
+/* ── Scroll reveal (RevealOnScroll) + reduced motion ── */
+.reveal-on-scroll {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-on-scroll {
+    transition:
+      opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal-on-scroll:not(.reveal-on-scroll-in) {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+
+  .reveal-on-scroll-in {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* ── Hero lista de presentes: ilustração e texto em sequência ── */
+@keyframes gifts-hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.gifts-hero-reveal {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gifts-hero-reveal {
+    animation: gifts-hero-fade-up 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  /* Mobile: ilustração em cima primeiro; desktop: texto à esquerda primeiro */
+  .gifts-hero-reveal-text {
+    animation-delay: 0.14s;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) and (min-width: 1024px) {
+  .gifts-hero-reveal-text {
+    animation-delay: 0s;
+  }
+
+  .gifts-hero-reveal-illu {
+    animation-delay: 0.14s;
+  }
+}
+
 .animation-delay-100 {
   animation-delay: 0.1s;
 }

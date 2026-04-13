@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
@@ -13,9 +13,16 @@ export function Navbar() {
   const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
+  const spyRafRef = useRef(0)
   
   /** Rota do convite completo (seções com hash) */
   const isInviteRoute = pathname === '/invite'
+  const isGiftsRoute = pathname === '/gifts'
+
+  const navItemIsActive = (itemId: string) =>
+    (isInviteRoute && activeSection === itemId) ||
+    (pathname === '/' && itemId === 'home') ||
+    (isGiftsRoute && itemId === 'presentes')
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,61 +32,51 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Scrollspy: Detecta qual seção está visível
+  /** Scrollspy em /invite: getBoundingClientRect + linha de ativação (navbar fixa no desktop; topo da viewport no mobile). */
   useEffect(() => {
+    if (pathname !== '/invite') {
+      setActiveSection('home')
+      return
+    }
+
     const sections = document.querySelectorAll('section[id]')
-    
-    const observerOptions = {
-      root: null,
-      rootMargin: '-20% 0px -70% 0px',
-      threshold: 0
-    }
+    if (sections.length === 0) return
 
-    const observerCallback = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute('id')
-          if (id) {
-            setActiveSection(id)
-          }
-        }
-      })
-    }
+    const computeActiveSection = () => {
+      spyRafRef.current = 0
+      const isDesktopNav = window.matchMedia('(min-width: 768px)').matches
+      const offset = isDesktopNav ? 96 : Math.min(140, window.innerHeight * 0.22)
+      const y = window.scrollY + offset
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions)
-
-    sections.forEach((section) => {
-      observer.observe(section)
-    })
-
-    // Fallback: Verifica a posição do scroll diretamente
-    const handleScrollSpy = () => {
-      const scrollPosition = window.scrollY + 100
-
+      const firstId = sections[0]?.getAttribute('id')
+      let currentId = firstId ?? 'home'
       sections.forEach((section) => {
-        const sectionTop = (section as HTMLElement).offsetTop
-        const sectionHeight = section.clientHeight
-        const sectionId = section.getAttribute('id')
-
-        if (
-          scrollPosition >= sectionTop &&
-          scrollPosition < sectionTop + sectionHeight
-        ) {
-          if (sectionId) {
-            setActiveSection(sectionId)
-          }
+        const el = section as HTMLElement
+        const top = el.getBoundingClientRect().top + window.scrollY
+        if (top <= y) {
+          const id = el.getAttribute('id')
+          if (id) currentId = id
         }
       })
+
+      setActiveSection((prev) => (prev === currentId ? prev : currentId))
     }
 
-    window.addEventListener('scroll', handleScrollSpy)
-    handleScrollSpy() // Verifica na carga inicial
+    const scheduleSpy = () => {
+      if (spyRafRef.current) return
+      spyRafRef.current = requestAnimationFrame(computeActiveSection)
+    }
+
+    computeActiveSection()
+    window.addEventListener('scroll', scheduleSpy, { passive: true })
+    window.addEventListener('resize', scheduleSpy)
 
     return () => {
-      observer.disconnect()
-      window.removeEventListener('scroll', handleScrollSpy)
+      window.removeEventListener('scroll', scheduleSpy)
+      window.removeEventListener('resize', scheduleSpy)
+      if (spyRafRef.current) cancelAnimationFrame(spyRafRef.current)
     }
-  }, [])
+  }, [pathname])
 
   // Determina o href do link "Início" baseado na página atual
   const getHomeHref = () => {
@@ -120,32 +117,32 @@ export function Navbar() {
       href: getHomeHref(),
       label: 'Início',
       id: 'home',
-      icon: <Icon.NavHome width="1.25rem" height="1.25rem" className="w-5 h-5" />,
+      icon: <Icon.NavHome width="1.5rem" height="1.5rem" className="h-6 w-6" />,
     },
     {
       href: getSectionHref('cerimonia'),
       label: 'Localização',
       id: 'cerimonia',
-      icon: <Icon.Location width="1.25rem" height="1.25rem" className="w-5 h-5" />,
+      icon: <Icon.Location width="1.5rem" height="1.5rem" className="h-6 w-6" />,
     },
     {
       href: getSectionHref('padrinhos'),
       label: 'Padrinhos',
       id: 'padrinhos',
-      icon: <Icon.Users width="1.25rem" height="1.25rem" className="w-5 h-5" />,
+      icon: <Icon.Users width="1.5rem" height="1.5rem" className="h-6 w-6" />,
     },
     {
       href: getSectionHref('faq'),
       label: 'Dúvidas',
       id: 'faq',
-      icon: <Icon.QuestionMark width="1.25rem" height="1.25rem" className="w-5 h-5" />,
+      icon: <Icon.QuestionMark width="1.5rem" height="1.5rem" className="h-6 w-6" />,
     },
     {
       href: '/gifts',
       label: 'Presentes',
       id: 'presentes',
       isExternal: false,
-      icon: <Icon.Heart width="1.25rem" height="1.25rem" className="w-5 h-5" />,
+      icon: <Icon.Heart width="1.5rem" height="1.5rem" className="h-6 w-6" />,
     },
   ]
 
@@ -188,9 +185,7 @@ export function Navbar() {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
               {menuItems.map((item) => {
-                const isActive =
-                  (isInviteRoute && activeSection === item.id) ||
-                  (pathname === '/' && item.id === 'home')
+                const isActive = navItemIsActive(item.id)
                 const linkProps = item.isExternal 
                   ? { target: '_blank', rel: 'noopener noreferrer' }
                   : {}
@@ -275,17 +270,18 @@ export function Navbar() {
       </nav>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-[100] bg-white/95 backdrop-blur-md border-t border-gray-200 shadow-[0_-2px_10px_rgba(0,0,0,0.05)]">
-        <div className="flex items-center justify-around h-16 px-2 max-w-full">
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-[100] border-t border-gray-200 bg-white/95 shadow-[0_-2px_12px_rgba(0,0,0,0.06)] backdrop-blur-md md:hidden pb-[env(safe-area-inset-bottom)]"
+        aria-label="Navegação principal"
+      >
+        <div className="mx-auto flex max-w-full items-stretch justify-around px-1 py-2 min-h-[5.25rem]">
           {menuItems.map((item) => {
-            const isActive =
-              (isInviteRoute && activeSection === item.id) ||
-              (pathname === '/' && item.id === 'home')
+            const isActive = navItemIsActive(item.id)
             const linkProps = item.isExternal 
               ? { target: '_blank', rel: 'noopener noreferrer' }
               : {}
 
-            const mobileLinkClass = `flex flex-col items-center justify-center flex-1 h-full transition-all duration-200 ${
+            const mobileLinkClass = `flex min-h-[3.25rem] flex-1 flex-col items-center justify-center gap-1 px-0.5 py-1 transition-all duration-200 active:opacity-90 ${
               isActive ? 'text-terracota-600' : 'text-gray-500'
             }`
 
@@ -297,10 +293,12 @@ export function Navbar() {
                   href={item.href}
                   className={mobileLinkClass}
                 >
-                  <div className={`mb-0.5 transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
+                  <div className={`transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
                     {item.icon}
                   </div>
-                  <span className={`text-[0.625rem] font-medium transition-colors leading-tight ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}>
+                  <span
+                    className={`max-w-[4.5rem] text-center text-[0.7rem] font-semibold leading-tight tracking-tight sm:max-w-none sm:text-xs ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}
+                  >
                     {item.label}
                   </span>
                 </a>
@@ -313,16 +311,16 @@ export function Navbar() {
                 <Link
                   key={item.id}
                   href={item.href}
-                  className={`flex flex-col items-center justify-center flex-1 h-full transition-all duration-200 ${
-                    isActive
-                      ? 'text-terracota-600'
-                      : 'text-gray-500'
+                  className={`flex min-h-[3.25rem] flex-1 flex-col items-center justify-center gap-1 px-0.5 py-1 transition-all duration-200 active:opacity-90 ${
+                    isActive ? 'text-terracota-600' : 'text-gray-500'
                   }`}
                 >
-                  <div className={`mb-0.5 transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
+                  <div className={`transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
                     {item.icon}
                   </div>
-                  <span className={`text-[0.625rem] font-medium transition-colors leading-tight ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}>
+                  <span
+                    className={`max-w-[4.5rem] text-center text-[0.7rem] font-semibold leading-tight tracking-tight sm:max-w-none sm:text-xs ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}
+                  >
                     {item.label}
                   </span>
                 </Link>
@@ -334,16 +332,16 @@ export function Navbar() {
                 key={item.id}
                 href={item.href}
                 {...linkProps}
-                className={`flex flex-col items-center justify-center flex-1 h-full transition-all duration-200 ${
-                  isActive && !item.isExternal
-                    ? 'text-terracota-600'
-                    : 'text-gray-500'
+                className={`flex min-h-[3.25rem] flex-1 flex-col items-center justify-center gap-1 px-0.5 py-1 transition-all duration-200 active:opacity-90 ${
+                  isActive && !item.isExternal ? 'text-terracota-600' : 'text-gray-500'
                 }`}
               >
-                <div className={`mb-0.5 transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
+                <div className={`transition-transform duration-200 ${isActive ? 'scale-110' : ''}`}>
                   {item.icon}
                 </div>
-                <span className={`text-[10px] font-medium transition-colors leading-tight ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}>
+                <span
+                  className={`max-w-[4.5rem] text-center text-[0.7rem] font-semibold leading-tight tracking-tight sm:max-w-none sm:text-xs ${isActive ? 'text-terracota-600' : 'text-gray-500'}`}
+                >
                   {item.label}
                 </span>
               </a>

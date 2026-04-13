@@ -7,7 +7,6 @@ import { cn } from '@/lib/utils/cn'
 
 const navItems = [
   { href: '/planning', label: 'Início', icon: Icon.Dashboard },
-  { href: '/planning/guests', label: 'Convidados', icon: Icon.Users },
   { href: '/planning/settings', label: 'Mais', icon: Icon.Settings },
 ]
 
