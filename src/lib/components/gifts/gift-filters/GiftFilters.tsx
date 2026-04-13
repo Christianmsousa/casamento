@@ -109,7 +109,7 @@ export function GiftFilters({ filters, onFiltersChange }: GiftFiltersProps) {
             type="text"
             value={search}
             onChange={(e) => handleSearchChange(e.target.value)}
-            placeholder="Buscar presente..."
+            placeholder="Buscar nome, marca ou palavra-chave..."
             className="block min-h-[3rem] w-full rounded-xl border border-stone-200 bg-white py-3 pl-12 pr-4 text-base text-charcoal-800 shadow-sm placeholder:text-charcoal-400 transition-colors focus:border-terracota-400 focus:outline-none focus:ring-2 focus:ring-terracota-400/35"
           />
         </div>

@@ -17,6 +17,8 @@ export interface Gift {
   id: string
   name: string
   description?: string
+  /** Termos extras para a busca (marcas, sinónimos, erros comuns de escrita). */
+  keywords?: string[]
   category: GiftCategory
   offeringType?: OfferingType
   price?: number

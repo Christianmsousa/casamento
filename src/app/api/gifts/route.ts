@@ -24,6 +24,7 @@ export async function POST(request: NextRequest) {
       id: Date.now().toString(),
       name: body.name,
       description: body.description,
+      keywords: Array.isArray(body.keywords) ? body.keywords.map(String) : undefined,
       category: body.category || 'outros',
       offeringType: body.offeringType ?? 'repeatable',
       price: body.price,

@@ -6,6 +6,7 @@ import { GiftsPageMobile } from './GiftsPageMobile'
 import { GiftsPageDesktop } from './GiftsPageDesktop'
 import { buildWhatsAppUrl } from '@/lib/utils/whatsapp'
 import type { Gift, GiftFilters } from '@/lib/types/gift'
+import { giftMatchesSearch } from '@/lib/utils/gift-search'
 
 export function GiftsPage({ whatsappPhone, pixSettings }: GiftsPageProps) {
   const [gifts, setGifts] = useState<Gift[]>([])
@@ -34,13 +35,7 @@ export function GiftsPage({ whatsappPhone, pixSettings }: GiftsPageProps) {
       if (filters.priceRange && gift.priceRange !== filters.priceRange) return false
       if (filters.offeringType && gift.offeringType !== filters.offeringType) return false
 
-      if (filters.search) {
-        const searchLower = filters.search.toLowerCase()
-        const matchesName = gift.name.toLowerCase().includes(searchLower)
-        const matchesDescription = gift.description?.toLowerCase().includes(searchLower)
-        const matchesCategory = gift.category.toLowerCase().includes(searchLower)
-        if (!matchesName && !matchesDescription && !matchesCategory) return false
-      }
+      if (filters.search && !giftMatchesSearch(gift, filters.search)) return false
 
       return true
     })
