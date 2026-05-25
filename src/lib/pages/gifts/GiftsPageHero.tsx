@@ -31,8 +31,8 @@ export function GiftsPageHero() {
               Sua presença é o maior presente.
             </p>
             <p className="text-base font-light leading-relaxed text-charcoal-500 sm:text-lg lg:text-xl lg:leading-relaxed">
-              Se quiserem nos presentear com algo além disso, estas são as nossas sugestões — ficaremos
-              imensamente gratos.
+              Nosso lar já está prontinho. Se quiserem nos presentear além disso, qualquer ajudinha para a
+              lua de mel será recebida com muito carinho — pelo botão abaixo ou pelo PIX.
             </p>
           </div>
         </div>
