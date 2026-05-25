@@ -1,24 +1,39 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
-import type { PixSettings } from '@/lib/pages/gifts/types'
+import type { PixSettings } from '@/lib/types/pix'
 import { Icon } from '@/lib/components/icons'
+import { cn } from '@/lib/utils/cn'
+import { PixQrCode } from './PixQrCode'
 
 interface PixBlockProps {
   pix: PixSettings
+  /** primary = destaque na landing; secondary = bloco abaixo da lista (página /gifts legada) */
+  variant?: 'primary' | 'secondary'
+  className?: string
 }
 
-export function PixBlock({ pix }: PixBlockProps) {
+const copyByVariant = {
+  primary: {
+    eyebrow: 'Lua de mel',
+    title: 'Enviar um PIX',
+    description:
+      'Use a chave ou o QR Code abaixo. Qualquer valor nos ajuda na viagem, e agradecemos de coração.',
+  },
+  secondary: {
+    eyebrow: 'Outra forma de presentear',
+    title: 'Prefere enviar um PIX?',
+    description: 'Se preferir, você pode nos enviar um presente via PIX. Ficamos muito gratos!',
+  },
+} as const
+
+export function PixBlock({ pix, variant = 'primary', className }: PixBlockProps) {
   const [copied, setCopied] = useState(false)
+  const copy = copyByVariant[variant]
 
-  const qrSrc = pix.qrImage
-  const hasPix = pix.copyPaste || qrSrc
-
-  if (!hasPix) return null
+  if (!pix.copyPaste) return null
 
   const handleCopy = async () => {
-    if (!pix.copyPaste) return
     try {
       await navigator.clipboard.writeText(pix.copyPaste)
       setCopied(true)
@@ -29,65 +44,56 @@ export function PixBlock({ pix }: PixBlockProps) {
   }
 
   return (
-    <section className="mt-12 border-t border-stone-200 pt-10">
-      <div className="max-w-lg mx-auto text-center space-y-6">
+    <section
+      className={cn(
+        variant === 'secondary' && 'mt-12 border-t border-stone-200 pt-10',
+        variant === 'primary' && 'mt-8',
+        className,
+      )}
+    >
+      <div className="mx-auto max-w-lg space-y-6 text-center">
         <div>
-          <p className="text-xs font-medium tracking-[0.2em] text-gold-600 uppercase mb-2">
-            Outra forma de presentear
+          <p className="mb-2 text-xs font-medium uppercase tracking-[0.2em] text-gold-600">
+            {copy.eyebrow}
           </p>
-          <h2 className="font-serif text-xl text-charcoal-800">Prefere enviar um PIX?</h2>
-          <p className="mt-2 text-sm text-charcoal-500 font-light leading-relaxed">
-            Se preferir, você pode nos enviar um presente via PIX. Ficamos muito gratos!
+          <h2 className="font-serif text-xl text-charcoal-800">{copy.title}</h2>
+          <p className="mt-2 text-sm font-light leading-relaxed text-charcoal-500">
+            {copy.description}
           </p>
         </div>
 
-        {qrSrc && (
-          <div className="flex justify-center">
-            <div className="relative w-48 h-48 rounded-xl overflow-hidden border border-cream-200 shadow-sm bg-white p-2">
-              <Image
-                src={qrSrc}
-                alt="QR Code PIX"
-                fill
-                className="object-contain"
-                sizes="192px"
-              />
-            </div>
-          </div>
-        )}
+        <PixQrCode payload={pix.copyPaste} />
 
-        {pix.copyPaste && (
-          <div className="space-y-2">
-            <div className="relative">
-              <textarea
-                readOnly
-                value={pix.copyPaste}
-                rows={3}
-                className="w-full text-xs text-charcoal-600 bg-cream-50 border border-cream-200 rounded-lg px-3 py-2 resize-none focus:outline-none font-mono"
-              />
-            </div>
-            <button
-              onClick={handleCopy}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-medium border border-terracota-300 text-terracota-700 hover:bg-terracota-50 transition-colors"
-              aria-live="polite"
-            >
-              {copied ? (
-                <>
-                  <Icon.CheckCircle width="0.875rem" height="0.875rem" aria-hidden />
-                  Copiado!
-                </>
-              ) : (
-                <>
-                  <Icon.Copy width="0.875rem" height="0.875rem" aria-hidden />
-                  Copiar chave PIX
-                </>
-              )}
-            </button>
+        <div className="space-y-2">
+          <div className="relative">
+            <textarea
+              readOnly
+              value={pix.copyPaste}
+              rows={3}
+              className="w-full resize-none rounded-lg border border-cream-200 bg-cream-50 px-3 py-2 font-mono text-xs text-charcoal-600 focus:outline-none"
+            />
           </div>
-        )}
+          <button
+            type="button"
+            onClick={handleCopy}
+            className="inline-flex items-center gap-2 rounded-full border border-terracota-300 px-4 py-2 text-xs font-medium text-terracota-700 transition-colors hover:bg-terracota-50"
+            aria-live="polite"
+          >
+            {copied ? (
+              <>
+                <Icon.CheckCircle width="0.875rem" height="0.875rem" aria-hidden />
+                Copiado!
+              </>
+            ) : (
+              <>
+                <Icon.Copy width="0.875rem" height="0.875rem" aria-hidden />
+                Copiar código PIX
+              </>
+            )}
+          </button>
+        </div>
 
-        {pix.note && (
-          <p className="text-xs text-charcoal-400 italic">{pix.note}</p>
-        )}
+        {pix.note && <p className="text-xs italic text-charcoal-400">{pix.note}</p>}
       </div>
     </section>
   )

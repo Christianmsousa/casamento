@@ -1,3 +1,6 @@
-// No props needed for now, but keeping for consistency
-export interface GiftsSectionProps {}
+import type { PixSettings } from '@/lib/types/pix'
 
+export interface GiftsSectionProps {
+  pixSettings?: PixSettings
+  whatsappPhone?: string
+}

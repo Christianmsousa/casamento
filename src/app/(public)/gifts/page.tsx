@@ -1,3 +1,14 @@
+import { redirect } from 'next/navigation'
+
+/** Rota pública: redireciona para presentes no convite. */
+export default function GiftsPageRoute() {
+  redirect('/invite#presentes')
+}
+
+/*
+ * LEGACY — página dedicada de presentes desativada temporariamente.
+ * Reativar: descomentar o bloco abaixo e remover o redirect acima.
+ *
 import { Suspense } from 'react'
 import { Navbar } from '@/lib/components/layout/navbar'
 import { HashScrollHandler } from '@/lib/components/layout/hash-scroll-handler'
@@ -28,3 +39,4 @@ export default async function GiftsPageRoute() {
     </div>
   )
 }
+*/

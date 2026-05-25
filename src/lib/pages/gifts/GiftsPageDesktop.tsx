@@ -42,7 +42,7 @@ export function GiftsPageDesktop({
           {/* Bloco PIX */}
           {pixSettings && (
             <RevealOnScroll className="mt-12 block lg:mt-14">
-              <PixBlock pix={pixSettings} />
+              <PixBlock pix={pixSettings} variant="secondary" />
             </RevealOnScroll>
           )}
         </div>

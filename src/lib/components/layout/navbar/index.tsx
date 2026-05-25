@@ -17,12 +17,9 @@ export function Navbar() {
   
   /** Rota do convite completo (seções com hash) */
   const isInviteRoute = pathname === '/invite'
-  const isGiftsRoute = pathname === '/gifts'
 
   const navItemIsActive = (itemId: string) =>
-    (isInviteRoute && activeSection === itemId) ||
-    (pathname === '/' && itemId === 'home') ||
-    (isGiftsRoute && itemId === 'presentes')
+    (isInviteRoute && activeSection === itemId) || (pathname === '/' && itemId === 'home')
 
   useEffect(() => {
     const handleScroll = () => {
@@ -138,7 +135,7 @@ export function Navbar() {
       icon: <Icon.QuestionMark width="1.5rem" height="1.5rem" className="h-6 w-6" />,
     },
     {
-      href: '/gifts',
+      href: getSectionHref('presentes'),
       label: 'Presentes',
       id: 'presentes',
       isExternal: false,

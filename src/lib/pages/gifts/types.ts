@@ -1,10 +1,7 @@
 import type { Gift, GiftFilters } from '@/lib/types/gift'
 
-export interface PixSettings {
-  copyPaste?: string
-  qrImage?: string
-  note?: string
-}
+export type { PixSettings } from '@/lib/types/pix'
+import type { PixSettings } from '@/lib/types/pix'
 
 export interface GiftsPageProps {
   whatsappPhone?: string

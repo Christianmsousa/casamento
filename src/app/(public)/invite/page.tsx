@@ -6,7 +6,7 @@ import { InviteContent } from '@/lib/pages/invite'
 import { useInviteData } from '@/lib/hooks/useInviteData'
 
 export default async function InvitePage() {
-  const { settings, faq } = await useInviteData()
+  const { settings, faq, pixSettings, giftsWhatsapp } = await useInviteData()
 
   return (
     <div className="relative min-h-screen bg-white pb-[calc(5.5rem+env(safe-area-inset-bottom,0px))] md:pb-0">
@@ -16,7 +16,12 @@ export default async function InvitePage() {
       </Suspense>
       <Navbar />
       <ScrollToTop />
-      <InviteContent settings={settings} faq={faq} />
+      <InviteContent
+        settings={settings}
+        faq={faq}
+        pixSettings={pixSettings}
+        giftsWhatsapp={giftsWhatsapp}
+      />
       </div>
     </div>
   )

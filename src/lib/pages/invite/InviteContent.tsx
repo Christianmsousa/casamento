@@ -13,6 +13,7 @@ import {
 import { HeroSection } from './hero-section'
 import { FAQSection } from './faq-section'
 import { GiftsSection } from './gifts-section'
+import type { PixSettings } from '@/lib/types/pix'
 
 /** Horário da cerimónia quando `wedding_date` vem só como data (YYYY-MM-DD). */
 const DEFAULT_CEREMONY_TIME = '16:00'
@@ -49,9 +50,11 @@ interface InviteContentProps {
     couple_names: { person1: string; person2: string }
   }
   faq: string
+  pixSettings?: PixSettings
+  giftsWhatsapp?: string
 }
 
-export function InviteContent({ settings, faq }: InviteContentProps) {
+export function InviteContent({ settings, faq, pixSettings, giftsWhatsapp }: InviteContentProps) {
   const coupleName = settings.couple_names.person1 && settings.couple_names.person2
     ? `${settings.couple_names.person1} & ${settings.couple_names.person2}`
     : 'Julia & Christian'
@@ -114,7 +117,7 @@ export function InviteContent({ settings, faq }: InviteContentProps) {
 
       {/* 6. CTA Presentes */}
       <RevealOnScroll className="w-full">
-        <GiftsSection />
+        <GiftsSection pixSettings={pixSettings} whatsappPhone={giftsWhatsapp} />
       </RevealOnScroll>
     </>
   )
