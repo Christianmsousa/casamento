@@ -22,7 +22,7 @@ Não se preocupe em confirmar por conta própria. A cerimonialista entra em cont
 
 ## Como vou receber as fotos do casamento?
 
-Depois do evento, o fotógrafo nos envia as fotos e publicamos tudo aqui no site, com o link para todos acessarem.
+Após o casamento, as fotos serão publicadas aqui no site para todos.
 
 ## Tenho mais dúvidas, como entro em contato?
 
