@@ -1,0 +1,103 @@
+SEXOS PENDENTES — ATUALIZADO
+Preencha M ou F entre os colchetes. Exemplo: [M] Bruno | convite-004
+Não altere o ID do convite.
+
+=== CHRISTIAN ===
+[ ] Giulia | convite-004 F 
+[ ] Necila | convite-005 F
+[ ] Cidao | convite-005 M
+[ ] Guilherme | convite-007 M
+[ ] Josiel | convite-010 M
+[ ] Eduarda | convite-010 F
+[ ] Wilson | convite-011 M
+[ ] João | convite-011 M
+[ ] Tauane | convite-011 F
+[ ] Matheus primo | convite-012 M
+[ ] Leo | convite-025 M 
+[ ] Bianca | convite-025 F
+[ ] Mirela | convite-025 F
+[ ] Kaiala | convite-026 F
+[ ] Henrique | convite-026 M
+[ ] Ana | convite-026 F 
+[ ] Higor | convite-028 M
+[ ] Julia | convite-028 F
+[ ] Gael | convite-028 M
+[ ] Maria Sofia | convite-029 F
+[ ] Bernardo Gael | convite-029 M
+[ ] Diana | convite-030 F
+[ ] Flavio | convite-030 M
+[ ] Henrique | convite-031 M
+[ ] Vitinho | convite-032 M
+[ ] Marcela | convite-032 M
+[ ] Maurilio | convite-034 M
+[ ] Liane | convite-034 F
+[ ] Priscila | convite-036 M
+[ ] Guilherme Guatura | convite-041 M
+[ ] Jacqueline | convite-041 F
+[ ] Lene | convite-042 F
+[ ] Davi | convite-042 M
+[ ] Thiago Area Dev | convite-043 M
+[ ] Adriel | convite-045 M
+[ ] Marcela | convite-046 F
+[ ] Adriano (Lobao) | convite-047 M
+[ ] Antonella | convite-049 F
+[ ] Ana | convite-055 F
+[ ] Julio | convite-056 M
+[ ] Julia | convite-057 F
+[ ] Andre | convite-057 M
+[ ] Andréia | convite-060 F
+[ ] Luciano | convite-060 M
+[ ] Regilene | convite-061 F
+[ ] Cleuza | convite-064 F
+[ ] Valdir | convite-064 M
+[ ] Pr Daniel | convite-066 M
+[ ] Karen | convite-066 F
+[ ] Mayra | convite-066 F
+
+=== JULIA ===
+[ ] Solange | convite-001 F
+[ ] Edson | convite-001 M
+[ ] Adriana | convite-002 F
+[ ] Zé | convite-002 M
+[ ] Bernardo | convite-003 M
+[ ] Benjamin | convite-003 M
+[ ] Vitória | convite-003 F
+[ ] João | convite-003  M
+[ ] Karina | convite-008 F
+[ ] Bruna | convite-009 F
+[ ] Matheus | convite-009 M
+[ ] Michel | convite-013 M
+[ ] Valeria | convite-013 F
+[ ] Bernardo | convite-013 M
+[ ] Sandra | convite-014 F
+[ ] Carlos | convite-014 M
+[ ] Juliana | convite-015 F
+[ ] Brunela | convite-015 F
+[ ] Cida | convite-017 F
+[ ] Joaquim | convite-017 M
+[ ] Daniel | convite-018 M
+[ ] Larissa | convite-019 F
+[ ] Karol | convite-022 F
+[ ] Leo | convite-022 M
+[ ] Mariela | convite-023 F
+[ ] Daniel | convite-024 M
+[ ] Francine | convite-024 F
+[ ] Aline | convite-037 F
+[ ] Gustavo | convite-037 M
+[ ] Silvia | convite-038 F
+[ ] Alexandre | convite-038 M
+[ ] Neuza | convite-039 F
+[ ] Osvaldo | convite-039 M
+[ ] Matheus | convite-039 M
+[ ] Cidao | convite-040 M
+[ ] Sabrina | convite-040 F
+[ ] Matheus | convite-051 M
+[ ] Tiago | convite-051 F
+[ ] Luiza | convite-052 F
+[ ] Gabriel | convite-052 M
+[ ] Daiane | convite-065 F
+[ ] Ronaldo | convite-065 M
+
+=== RESPONSÁVEL A DEFINIR ===
+[ ] Kamila | convite-006 F
+[ ] Bruno | convite-006 M

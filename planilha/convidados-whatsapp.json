@@ -1,0 +1,3592 @@
+{
+  "schema_version": 2,
+  "gerado_em": "2026-08-28",
+  "fonte": "planilha/Convidados.xlsx",
+  "configuracao": {
+    "url_convite": "https://www.juliachristian.com.br/invite",
+    "data_casamento": "2026-11-14",
+    "horario_cerimonia": "16:00",
+    "abertura_links": "WhatsApp Web",
+    "observacao": "Os links apenas preenchem a mensagem; o envio final deve ser confirmado manualmente no WhatsApp."
+  },
+  "resumo": {
+    "total_convites": 67,
+    "convites_christian": 41,
+    "convites_julia": 25,
+    "convites_a_definir": 1,
+    "prontos_para_envio": 56,
+    "sem_telefone": 8,
+    "convites_com_nomes_a_completar": 2,
+    "convidados_sem_nome": 4,
+    "telefones_invalidos_ou_incompletos": 1,
+    "mesas_a_definir": 155,
+    "total_pessoas_informado_na_planilha": 157,
+    "total_registros_individuais_criados": 160,
+    "convites_com_quantidade_divergente_dos_nomes": 2,
+    "convites_sem_quantidade_definida": 1,
+    "pessoas_ainda_sem_nome": 25,
+    "variacoes_mensagem": {
+      "3_pessoas": 14,
+      "2_pessoas": 31,
+      "1_pessoa": 13,
+      "4_ou_mais_pessoas": 9
+    }
+  },
+  "possiveis_duplicados_entre_abas": [],
+  "listas": {
+    "christian": [
+      {
+        "id": "convite-004",
+        "nome_convite": "Bruno, Mara e Giulia",
+        "telefone_original": "Tio Bruno: 19 99506-1527 | Tia Mara: 19 99225-5804",
+        "telefones": [
+          {
+            "contato": "Bruno",
+            "original": "19 99506-1527",
+            "numero_internacional": "5519995061527",
+            "pais": "BR",
+            "valido_para_link": true
+          },
+          {
+            "contato": "Mara",
+            "original": "19 99225-5804",
+            "numero_internacional": "5519992255804",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-004-pessoa-01",
+            "nome": "Bruno",
+            "referencia_original": "tio",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-004-pessoa-02",
+            "nome": "Mara",
+            "referencia_original": "tia",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-004-pessoa-03",
+            "nome": "Giulia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Bruno, Mara e Giulia! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "contato": "Bruno",
+            "telefone": "5519995061527",
+            "url": "https://web.whatsapp.com/send?phone=5519995061527&text=Ol%C3%A1%2C%20Bruno%2C%20Mara%20e%20Giulia%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          },
+          {
+            "contato": "Mara",
+            "telefone": "5519992255804",
+            "url": "https://web.whatsapp.com/send?phone=5519992255804&text=Ol%C3%A1%2C%20Bruno%2C%20Mara%20e%20Giulia%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-005",
+        "nome_convite": "Necila e Cidao",
+        "telefone_original": "19 99728-8996",
+        "telefones": [
+          {
+            "original": "19 99728-8996",
+            "numero_internacional": "5519997288996",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-005-pessoa-01",
+            "nome": "Necila",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-005-pessoa-02",
+            "nome": "Cidao",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Necila e Cidao! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519997288996",
+            "url": "https://web.whatsapp.com/send?phone=5519997288996&text=Ol%C3%A1%2C%20Necila%20e%20Cidao%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-007",
+        "nome_convite": "Guilherme",
+        "telefone_original": "351 913 966 812",
+        "telefones": [
+          {
+            "original": "351 913 966 812",
+            "numero_internacional": "351913966812",
+            "pais": "PT",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-007-pessoa-01",
+            "nome": "Guilherme",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Guilherme! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "351913966812",
+            "url": "https://web.whatsapp.com/send?phone=351913966812&text=Ol%C3%A1%2C%20Guilherme%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-010",
+        "nome_convite": "Josiel e Eduarda",
+        "telefone_original": "19 99334-2696",
+        "telefones": [
+          {
+            "original": "19 99334-2696",
+            "numero_internacional": "5519993342696",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-010-pessoa-01",
+            "nome": "Josiel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-010-pessoa-02",
+            "nome": "Eduarda",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Josiel e Eduarda! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519993342696",
+            "url": "https://web.whatsapp.com/send?phone=5519993342696&text=Ol%C3%A1%2C%20Josiel%20e%20Eduarda%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-011",
+        "nome_convite": "Tia Lu, Wilson, João e Tauane",
+        "telefone_original": "19 99422-1132",
+        "telefones": [
+          {
+            "original": "19 99422-1132",
+            "numero_internacional": "5519994221132",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 4,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-011-pessoa-01",
+            "nome": "Tia Lu",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-011-pessoa-02",
+            "nome": "Wilson",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-011-pessoa-03",
+            "nome": "João",
+            "referencia_original": "filho(a) de Wilson",
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Até 12 anos (aproximadamente, a confirmar)"
+          },
+          {
+            "id": "convite-011-pessoa-04",
+            "nome": "Tauane",
+            "referencia_original": "filho(a) de Wilson",
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Até 12 anos (aproximadamente, a confirmar)"
+          }
+        ],
+        "mensagem": "Olá, Tia Lu, Wilson e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Tia Lu\n- Wilson\n- João\n- Tauane\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519994221132",
+            "url": "https://web.whatsapp.com/send?phone=5519994221132&text=Ol%C3%A1%2C%20Tia%20Lu%2C%20Wilson%20e%20fam%C3%ADlia%21%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Tia%20Lu%0A-%20Wilson%0A-%20Jo%C3%A3o%0A-%20Tauane%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [
+          "confirmar_idades_de_João_e_Tauane"
+        ],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-012",
+        "nome_convite": "Matheus e João",
+        "telefone_original": "19 99254-3186",
+        "telefones": [
+          {
+            "original": "19 99254-3186",
+            "numero_internacional": "5519992543186",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-012-pessoa-01",
+            "nome": "Matheus primo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-012-pessoa-02",
+            "nome": "João",
+            "referencia_original": "filho(a) de Matheus",
+            "sexo": null,
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 10 anos"
+          }
+        ],
+        "mensagem": "Olá, Matheus primo e João! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519992543186",
+            "url": "https://web.whatsapp.com/send?phone=5519992543186&text=Ol%C3%A1%2C%20Matheus%20primo%20e%20Jo%C3%A3o%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-026",
+        "nome_convite": "Kaiala, Henrique e Ana",
+        "telefone_original": "19 98242-6763",
+        "telefones": [
+          {
+            "original": "19 98242-6763",
+            "numero_internacional": "5519982426763",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-026-pessoa-01",
+            "nome": "Kaiala",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-026-pessoa-02",
+            "nome": "Henrique",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-026-pessoa-03",
+            "nome": "Ana",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Kaiala, Henrique e Ana! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519982426763",
+            "url": "https://web.whatsapp.com/send?phone=5519982426763&text=Ol%C3%A1%2C%20Kaiala%2C%20Henrique%20e%20Ana%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-027",
+        "nome_convite": "Vó Elza",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-027-pessoa-01",
+            "nome": "Vó Elza",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Vó Elza! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente"
+        ],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-028",
+        "nome_convite": "Higor, Julia e Gael",
+        "telefone_original": "19 98870-1542",
+        "telefones": [
+          {
+            "original": "19 98870-1542",
+            "numero_internacional": "5519988701542",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-028-pessoa-01",
+            "nome": "Higor",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-028-pessoa-02",
+            "nome": "Julia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-028-pessoa-03",
+            "nome": "Gael",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 9 anos"
+          }
+        ],
+        "mensagem": "Olá, Higor, Julia e Gael! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519988701542",
+            "url": "https://web.whatsapp.com/send?phone=5519988701542&text=Ol%C3%A1%2C%20Higor%2C%20Julia%20e%20Gael%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-029",
+        "nome_convite": "Rodrigo, Joyce, Maria Sofia e Bernardo Gael",
+        "telefone_original": "19 99564-8448",
+        "telefones": [
+          {
+            "original": "19 99564-8448",
+            "numero_internacional": "5519995648448",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 4,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-029-pessoa-01",
+            "nome": "Rodrigo",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-029-pessoa-02",
+            "nome": "Joyce",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-029-pessoa-03",
+            "nome": "Maria Sofia",
+            "referencia_original": "filho(a) de Rodrigo e Joyce",
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Aproximadamente 12 anos"
+          },
+          {
+            "id": "convite-029-pessoa-04",
+            "nome": "Bernardo Gael",
+            "referencia_original": "filho(a) de Rodrigo e Joyce",
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 9 anos"
+          }
+        ],
+        "mensagem": "Olá, Rodrigo, Joyce e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Rodrigo\n- Joyce\n- Maria Sofia\n- Bernardo Gael\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519995648448",
+            "url": "https://web.whatsapp.com/send?phone=5519995648448&text=Ol%C3%A1%2C%20Rodrigo%2C%20Joyce%20e%20fam%C3%ADlia%21%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Rodrigo%0A-%20Joyce%0A-%20Maria%20Sofia%0A-%20Bernardo%20Gael%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-030",
+        "nome_convite": "Diana e Flavio",
+        "telefone_original": "19 98225-4007",
+        "telefones": [
+          {
+            "original": "19 98225-4007",
+            "numero_internacional": "5519982254007",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-030-pessoa-01",
+            "nome": "Diana",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-030-pessoa-02",
+            "nome": "Flavio",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Diana e Flavio! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519982254007",
+            "url": "https://web.whatsapp.com/send?phone=5519982254007&text=Ol%C3%A1%2C%20Diana%20e%20Flavio%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-031",
+        "nome_convite": "Fia e Henrique",
+        "telefone_original": "19 98806-3508",
+        "telefones": [
+          {
+            "original": "19 98806-3508",
+            "numero_internacional": "5519988063508",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-031-pessoa-01",
+            "nome": "Fia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-031-pessoa-02",
+            "nome": "Henrique",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Fia e Henrique! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519988063508",
+            "url": "https://web.whatsapp.com/send?phone=5519988063508&text=Ol%C3%A1%2C%20Fia%20e%20Henrique%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-032",
+        "nome_convite": "Vitinho e Marcela",
+        "telefone_original": "19 99487-5794",
+        "telefones": [
+          {
+            "original": "19 99487-5794",
+            "numero_internacional": "5519994875794",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-032-pessoa-01",
+            "nome": "Vitinho",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-032-pessoa-02",
+            "nome": "Marcela",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Vitinho e Marcela! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519994875794",
+            "url": "https://web.whatsapp.com/send?phone=5519994875794&text=Ol%C3%A1%2C%20Vitinho%20e%20Marcela%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-033",
+        "nome_convite": "Geise Keli, Kamily, Rafael e Felipe",
+        "telefone_original": "19 99111-0862",
+        "telefones": [
+          {
+            "original": "19 99111-0862",
+            "numero_internacional": "5519991110862",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 4,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-033-pessoa-01",
+            "nome": "Geise Keli",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-033-pessoa-02",
+            "nome": "Kamily",
+            "referencia_original": "mulher",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-033-pessoa-03",
+            "nome": "Rafael",
+            "referencia_original": "homem",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-033-pessoa-04",
+            "nome": "Felipe",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Geise Keli, Kamily e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Geise Keli\n- Kamily\n- Rafael\n- Felipe\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519991110862",
+            "url": "https://web.whatsapp.com/send?phone=5519991110862&text=Ol%C3%A1%2C%20Geise%20Keli%2C%20Kamily%20e%20fam%C3%ADlia%21%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Geise%20Keli%0A-%20Kamily%0A-%20Rafael%0A-%20Felipe%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-034",
+        "nome_convite": "Maurilio e Liane",
+        "telefone_original": "19 99446-1848",
+        "telefones": [
+          {
+            "original": "19 99446-1848",
+            "numero_internacional": "5519994461848",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-034-pessoa-01",
+            "nome": "Maurilio",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-034-pessoa-02",
+            "nome": "Liane",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Maurilio e Liane! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519994461848",
+            "url": "https://web.whatsapp.com/send?phone=5519994461848&text=Ol%C3%A1%2C%20Maurilio%20e%20Liane%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-035",
+        "nome_convite": "Evelyn e Gabriel",
+        "telefone_original": "19 99364-6098",
+        "telefones": [
+          {
+            "original": "19 99364-6098",
+            "numero_internacional": "5519993646098",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-035-pessoa-01",
+            "nome": "Evelyn",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-035-pessoa-02",
+            "nome": "Gabriel",
+            "referencia_original": "namorado",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Evelyn e Gabriel! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519993646098",
+            "url": "https://web.whatsapp.com/send?phone=5519993646098&text=Ol%C3%A1%2C%20Evelyn%20e%20Gabriel%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "contato_referencia": "Evelyn",
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-036",
+        "nome_convite": "Priscila",
+        "telefone_original": "19 98608-1761",
+        "telefones": [
+          {
+            "original": "19 98608-1761",
+            "numero_internacional": "5519986081761",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-036-pessoa-01",
+            "nome": "Priscila",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Priscila! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519986081761",
+            "url": "https://web.whatsapp.com/send?phone=5519986081761&text=Ol%C3%A1%2C%20Priscila%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-041",
+        "nome_convite": "Guilherme Guatura e Jacqueline",
+        "telefone_original": "19 99971-5386",
+        "telefones": [
+          {
+            "original": "19 99971-5386",
+            "numero_internacional": "5519999715386",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-041-pessoa-01",
+            "nome": "Guilherme Guatura",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-041-pessoa-02",
+            "nome": "Jacqueline",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Guilherme Guatura e Jacqueline! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519999715386",
+            "url": "https://web.whatsapp.com/send?phone=5519999715386&text=Ol%C3%A1%2C%20Guilherme%20Guatura%20e%20Jacqueline%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-042",
+        "nome_convite": "Shall, Lene e Davi",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-042-pessoa-01",
+            "nome": "Shall",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-042-pessoa-02",
+            "nome": "Lene",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-042-pessoa-03",
+            "nome": "Davi",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Shall, Lene e Davi! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente"
+        ],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-043",
+        "nome_convite": "Thiago Area Dev",
+        "telefone_original": "62 9341-5378",
+        "telefones": [
+          {
+            "original": "62 9341-5378",
+            "numero_internacional": "556293415378",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-043-pessoa-01",
+            "nome": "Thiago Area Dev",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Thiago Area Dev! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "556293415378",
+            "url": "https://web.whatsapp.com/send?phone=556293415378&text=Ol%C3%A1%2C%20Thiago%20Area%20Dev%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-044",
+        "nome_convite": "Rod Area Dev",
+        "telefone_original": "91 8140-1807",
+        "telefones": [
+          {
+            "original": "91 8140-1807",
+            "numero_internacional": "559181401807",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-044-pessoa-01",
+            "nome": "Rod Area Dev",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Rod Area Dev! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "559181401807",
+            "url": "https://web.whatsapp.com/send?phone=559181401807&text=Ol%C3%A1%2C%20Rod%20Area%20Dev%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-045",
+        "nome_convite": "Adriel, Paola e Daniel",
+        "telefone_original": "91 8382-2970",
+        "telefones": [
+          {
+            "original": "91 8382-2970",
+            "numero_internacional": "559183822970",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-045-pessoa-01",
+            "nome": "Adriel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-045-pessoa-02",
+            "nome": "Paola",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-045-pessoa-03",
+            "nome": "Daniel",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Aproximadamente 2 anos (a confirmar)"
+          }
+        ],
+        "mensagem": "Olá, Adriel, Paola e Daniel! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "559183822970",
+            "url": "https://web.whatsapp.com/send?phone=559183822970&text=Ol%C3%A1%2C%20Adriel%2C%20Paola%20e%20Daniel%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [
+          "confirmar_idade_de_Daniel"
+        ],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-046",
+        "nome_convite": "Cdi e Marcela",
+        "telefone_original": "19 98326-9308",
+        "telefones": [
+          {
+            "original": "19 98326-9308",
+            "numero_internacional": "5519983269308",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-046-pessoa-01",
+            "nome": "Cdi",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-046-pessoa-02",
+            "nome": "Marcela",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Cdi e Marcela! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519983269308",
+            "url": "https://web.whatsapp.com/send?phone=5519983269308&text=Ol%C3%A1%2C%20Cdi%20e%20Marcela%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-047",
+        "nome_convite": "Adriano e família",
+        "telefone_original": "19 98307-4865",
+        "telefones": [
+          {
+            "original": "19 98307-4865",
+            "numero_internacional": "5519983074865",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-047-pessoa-01",
+            "nome": "Adriano",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-047-pessoa-02",
+            "nome": null,
+            "referencia_original": "familia",
+            "sexo": null,
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 9 anos"
+          },
+          {
+            "id": "convite-047-pessoa-03",
+            "nome": null,
+            "referencia_original": null,
+            "sexo": null,
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Adriano e família! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519983074865",
+            "url": "https://web.whatsapp.com/send?phone=5519983074865&text=Ol%C3%A1%2C%20Adriano%20e%20fam%C3%ADlia%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "completar_nomes_dos_convidados",
+          "identificar_criança_menor_de_9_anos"
+        ],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-048",
+        "nome_convite": "Well",
+        "telefone_original": "19 99954-1150",
+        "telefones": [
+          {
+            "original": "19 99954-1150",
+            "numero_internacional": "5519999541150",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-048-pessoa-01",
+            "nome": "Well",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Well! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519999541150",
+            "url": "https://web.whatsapp.com/send?phone=5519999541150&text=Ol%C3%A1%2C%20Well%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-049",
+        "nome_convite": "Juliana Amorim, Manu, Rafael e Antonella",
+        "telefone_original": "19 99702-5653",
+        "telefones": [
+          {
+            "original": "19 99702-5653",
+            "numero_internacional": "5519997025653",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 4,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-049-pessoa-01",
+            "nome": "Juliana Amorim",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-049-pessoa-02",
+            "nome": "Manu",
+            "referencia_original": "filha",
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 9 anos"
+          },
+          {
+            "id": "convite-049-pessoa-03",
+            "nome": "Rafael",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-049-pessoa-04",
+            "nome": "Antonella",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 3 anos"
+          }
+        ],
+        "mensagem": "Olá, Juliana Amorim, Manu e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Juliana Amorim\n- Manu\n- Rafael\n- Antonella\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519997025653",
+            "url": "https://web.whatsapp.com/send?phone=5519997025653&text=Ol%C3%A1%2C%20Juliana%20Amorim%2C%20Manu%20e%20fam%C3%ADlia%21%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Juliana%20Amorim%0A-%20Manu%0A-%20Rafael%0A-%20Antonella%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-053",
+        "nome_convite": "Vó Elisa",
+        "telefone_original": "19 98221-3409",
+        "telefones": [
+          {
+            "original": "19 98221-3409",
+            "numero_internacional": "5519982213409",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-053-pessoa-01",
+            "nome": "Vó Elisa",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Vó Elisa! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519982213409",
+            "url": "https://web.whatsapp.com/send?phone=5519982213409&text=Ol%C3%A1%2C%20V%C3%B3%20Elisa%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-054",
+        "nome_convite": "Daniel, Mih, Samuel, Davi, Miguel e Levi",
+        "telefone_original": "19 98335-6156",
+        "telefones": [
+          {
+            "original": "19 98335-6156",
+            "numero_internacional": "5519983356156",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 6,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-054-pessoa-01",
+            "nome": "Daniel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-054-pessoa-02",
+            "nome": "Mih",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-054-pessoa-03",
+            "nome": "Samuel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-054-pessoa-04",
+            "nome": "Davi",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 5 anos"
+          },
+          {
+            "id": "convite-054-pessoa-05",
+            "nome": "Miguel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-054-pessoa-06",
+            "nome": "Levi",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 5 anos"
+          }
+        ],
+        "mensagem": "Olá, Daniel, Mih e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Daniel\n- Mih\n- Samuel\n- Davi\n- Miguel\n- Levi\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519983356156",
+            "url": "https://web.whatsapp.com/send?phone=5519983356156&text=Ol%C3%A1%2C%20Daniel%2C%20Mih%20e%20fam%C3%ADlia%21%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Daniel%0A-%20Mih%0A-%20Samuel%0A-%20Davi%0A-%20Miguel%0A-%20Levi%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-055",
+        "nome_convite": "Tio Cristiano e Ana",
+        "telefone_original": "19 99136-0358",
+        "telefones": [
+          {
+            "original": "19 99136-0358",
+            "numero_internacional": "5519991360358",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-055-pessoa-01",
+            "nome": "Tio Cristiano",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-055-pessoa-02",
+            "nome": "Ana",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Tio Cristiano e Ana! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519991360358",
+            "url": "https://web.whatsapp.com/send?phone=5519991360358&text=Ol%C3%A1%2C%20Tio%20Cristiano%20e%20Ana%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-056",
+        "nome_convite": "Tia Bibia e Julio",
+        "telefone_original": "19 99509-1412",
+        "telefones": [
+          {
+            "original": "19 99509-1412",
+            "numero_internacional": "5519995091412",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-056-pessoa-01",
+            "nome": "Tia Bibia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-056-pessoa-02",
+            "nome": "Julio",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Tia Bibia e Julio! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519995091412",
+            "url": "https://web.whatsapp.com/send?phone=5519995091412&text=Ol%C3%A1%2C%20Tia%20Bibia%20e%20Julio%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-056-natalia",
+        "nome_convite": "Natalia",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-056-natalia-pessoa-01",
+            "nome": "Natalia",
+            "referencia_original": "filha adulta de Tia Bibia e Julio",
+            "sexo": "F",
+            "tipo": "Adulto",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Natalia! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente"
+        ],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-057",
+        "nome_convite": "Julia e Andre",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-057-pessoa-01",
+            "nome": "Julia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-057-pessoa-02",
+            "nome": "Andre",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Julia e Andre! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente"
+        ],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-059",
+        "nome_convite": "Tio Jô",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-059-pessoa-01",
+            "nome": "Tio Jô",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-059-pessoa-02",
+            "nome": null,
+            "referencia_original": "criança menor de 9 anos — nome pendente",
+            "sexo": null,
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 9 anos"
+          },
+          {
+            "id": "convite-059-pessoa-03",
+            "nome": null,
+            "referencia_original": null,
+            "sexo": null,
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Tio Jô! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente",
+          "completar_nomes_dos_convidados",
+          "identificar_criança_menor_de_9_anos"
+        ],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-060",
+        "nome_convite": "Andréia e Luciano",
+        "telefone_original": "19 98800-5456",
+        "telefones": [
+          {
+            "original": "19 98800-5456",
+            "numero_internacional": "5519988005456",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-060-pessoa-01",
+            "nome": "Andréia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-060-pessoa-02",
+            "nome": "Luciano",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Andréia e Luciano! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519988005456",
+            "url": "https://web.whatsapp.com/send?phone=5519988005456&text=Ol%C3%A1%2C%20Andr%C3%A9ia%20e%20Luciano%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-061",
+        "nome_convite": "Marcio, Regilene, Raquel, Matheus, Miguel e Lucas",
+        "telefone_original": "61 9352-5661",
+        "telefones": [
+          {
+            "original": "61 9352-5661",
+            "numero_internacional": "556193525661",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 6,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-061-pessoa-01",
+            "nome": "Marcio",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-061-pessoa-02",
+            "nome": "Regilene",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-061-pessoa-03",
+            "nome": "Raquel",
+            "referencia_original": "filha",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-061-pessoa-04",
+            "nome": "Matheus",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-061-pessoa-05",
+            "nome": "Miguel",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-061-pessoa-06",
+            "nome": "Lucas",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Marcio, Regilene e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Marcio\n- Regilene\n- Raquel\n- Matheus\n- Miguel\n- Lucas\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "556193525661",
+            "url": "https://web.whatsapp.com/send?phone=556193525661&text=Ol%C3%A1%2C%20Marcio%2C%20Regilene%20e%20fam%C3%ADlia%21%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Marcio%0A-%20Regilene%0A-%20Raquel%0A-%20Matheus%0A-%20Miguel%0A-%20Lucas%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-062",
+        "nome_convite": "Raquel, Jeison e Melyssa",
+        "telefone_original": "19 99561-3200",
+        "telefones": [
+          {
+            "original": "19 99561-3200",
+            "numero_internacional": "5519995613200",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-062-pessoa-01",
+            "nome": "Raquel",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-062-pessoa-02",
+            "nome": "Jeison",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-062-pessoa-03",
+            "nome": "Melyssa",
+            "referencia_original": "filha",
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "8 anos"
+          }
+        ],
+        "mensagem": "Olá, Raquel, Jeison e Melyssa! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519995613200",
+            "url": "https://web.whatsapp.com/send?phone=5519995613200&text=Ol%C3%A1%2C%20Raquel%2C%20Jeison%20e%20Melyssa%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-063",
+        "nome_convite": "Ribeirão, Kamilia, Tati e Matheus",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 4,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-063-pessoa-01",
+            "nome": "Ribeirão",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-063-pessoa-02",
+            "nome": "Kamilia",
+            "referencia_original": "filha",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-063-pessoa-03",
+            "nome": "Tati",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-063-pessoa-04",
+            "nome": "Matheus",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Ribeirão, Kamilia e família! 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Ribeirão\n- Kamilia\n- Tati\n- Matheus\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença e os nomes de cada pessoa.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente"
+        ],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-064",
+        "nome_convite": "Cleuza e Valdir",
+        "telefone_original": "19 99195-3978",
+        "telefones": [
+          {
+            "original": "19 99195-3978",
+            "numero_internacional": "5519991953978",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-064-pessoa-01",
+            "nome": "Cleuza",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-064-pessoa-02",
+            "nome": "Valdir",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Cleuza e Valdir! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConfira o convite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519991953978",
+            "url": "https://web.whatsapp.com/send?phone=5519991953978&text=Ol%C3%A1%2C%20Cleuza%20e%20Valdir%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConfira%20o%20convite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-066",
+        "nome_convite": "Pr Daniel, Karen e Mayra",
+        "telefone_original": "19 99227-5690",
+        "telefones": [
+          {
+            "original": "19 99227-5690",
+            "numero_internacional": "5519992275690",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "christian",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Cerimonial",
+        "convidados": [
+          {
+            "id": "convite-066-pessoa-01",
+            "nome": "Pr Daniel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-066-pessoa-02",
+            "nome": "Karen",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-066-pessoa-03",
+            "nome": "Mayra",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Pr Daniel, Karen e Mayra! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será dia *14 de novembro de 2026, às 16h*.\nConvite: https://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato para confirmar a presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519992275690",
+            "url": "https://wa.me/5519992275690?text=Ol%C3%A1%2C%20Pr%20Daniel%2C%20Karen%20e%20Mayra%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0AConvite%3A%20https%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20para%20confirmar%20a%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      }
+    ],
+    "julia": [
+      {
+        "id": "convite-001",
+        "nome_convite": "Solange & Edson",
+        "telefone_original": "11 991521914 ------------- 11 983864217",
+        "telefones": [
+          {
+            "original": "11 991521914",
+            "numero_internacional": "5511991521914",
+            "pais": "BR",
+            "valido_para_link": true
+          },
+          {
+            "original": "11 983864217",
+            "numero_internacional": "5511983864217",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-001-pessoa-01",
+            "nome": "Solange",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-001-pessoa-02",
+            "nome": "Edson",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Solange e Edson! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511991521914",
+            "url": "https://web.whatsapp.com/send?phone=5511991521914&text=Ol%C3%A1%2C%20Solange%20e%20Edson%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          },
+          {
+            "telefone": "5511983864217",
+            "url": "https://web.whatsapp.com/send?phone=5511983864217&text=Ol%C3%A1%2C%20Solange%20e%20Edson%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-002",
+        "nome_convite": "Adriana & Zé",
+        "telefone_original": "19 991742185",
+        "telefones": [
+          {
+            "original": "19 991742185",
+            "numero_internacional": "5519991742185",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-002-pessoa-01",
+            "nome": "Adriana",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-002-pessoa-02",
+            "nome": "Zé",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Adriana e Zé! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519991742185",
+            "url": "https://web.whatsapp.com/send?phone=5519991742185&text=Ol%C3%A1%2C%20Adriana%20e%20Z%C3%A9%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-003",
+        "nome_convite": "Max, Teina, Bernardo, Benjamin, Vitória e João",
+        "telefone_original": "11 969168130 ---------  11 993550499",
+        "telefones": [
+          {
+            "original": "11 969168130",
+            "numero_internacional": "5511969168130",
+            "pais": "BR",
+            "valido_para_link": true
+          },
+          {
+            "original": "11 993550499",
+            "numero_internacional": "5511993550499",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 6,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-003-pessoa-01",
+            "nome": "Max",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-003-pessoa-02",
+            "nome": "Teina",
+            "referencia_original": "mulher",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-003-pessoa-03",
+            "nome": "Bernardo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-003-pessoa-04",
+            "nome": "Benjamin",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 10 anos"
+          },
+          {
+            "id": "convite-003-pessoa-05",
+            "nome": "Vitória",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-003-pessoa-06",
+            "nome": "João",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Max, Teina e família!\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Max\n- Teina\n- Bernardo\n- Benjamin\n- Vitória\n- João\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511969168130",
+            "url": "https://web.whatsapp.com/send?phone=5511969168130&text=Ol%C3%A1%2C%20Max%2C%20Teina%20e%20fam%C3%ADlia%21%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Max%0A-%20Teina%0A-%20Bernardo%0A-%20Benjamin%0A-%20Vit%C3%B3ria%0A-%20Jo%C3%A3o%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          },
+          {
+            "telefone": "5511993550499",
+            "url": "https://web.whatsapp.com/send?phone=5511993550499&text=Ol%C3%A1%2C%20Max%2C%20Teina%20e%20fam%C3%ADlia%21%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Max%0A-%20Teina%0A-%20Bernardo%0A-%20Benjamin%0A-%20Vit%C3%B3ria%0A-%20Jo%C3%A3o%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-008",
+        "nome_convite": "Karina",
+        "telefone_original": "35 988137637",
+        "telefones": [
+          {
+            "original": "35 988137637",
+            "numero_internacional": "5535988137637",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-008-pessoa-01",
+            "nome": "Karina",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Karina! Tudo bem? 🤍\n\nEstamos muito felizes em compartilhar uma notícia tão especial com você: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5535988137637",
+            "url": "https://web.whatsapp.com/send?phone=5535988137637&text=Ol%C3%A1%2C%20Karina%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0A%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AA%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-009",
+        "nome_convite": "Bruna, Matheus e Matheus (filho)",
+        "telefone_original": "6 29778006 -------------  19 999380241",
+        "telefones": [
+          {
+            "original": "6 29778006",
+            "numero_internacional": null,
+            "pais": null,
+            "valido_para_link": false
+          },
+          {
+            "original": "19 999380241",
+            "numero_internacional": "5519999380241",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-009-pessoa-01",
+            "nome": "Bruna",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-009-pessoa-02",
+            "nome": "Matheus",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-009-pessoa-03",
+            "nome": "Matheus (filho)",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Menor de 9 anos"
+          }
+        ],
+        "mensagem": "Olá, Bruna, Matheus e Matheus (filho)! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519999380241",
+            "url": "https://web.whatsapp.com/send?phone=5519999380241&text=Ol%C3%A1%2C%20Bruna%2C%20Matheus%20e%20Matheus%20%28filho%29%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [
+          "revisar_telefone_invalido_ou_incompleto",
+          "revisar_quantidade_vs_nomes"
+        ],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-013",
+        "nome_convite": "Michel, Valeria e Bernardo",
+        "telefone_original": "11 943254635",
+        "telefones": [
+          {
+            "original": "11 943254635",
+            "numero_internacional": "5511943254635",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-013-pessoa-01",
+            "nome": "Michel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-013-pessoa-02",
+            "nome": "Valeria",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-013-pessoa-03",
+            "nome": "Bernardo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Michel, Valeria e Bernardo! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511943254635",
+            "url": "https://web.whatsapp.com/send?phone=5511943254635&text=Ol%C3%A1%2C%20Michel%2C%20Valeria%20e%20Bernardo%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-014",
+        "nome_convite": "Sandra e Carlos",
+        "telefone_original": "11 976342397",
+        "telefones": [
+          {
+            "original": "11 976342397",
+            "numero_internacional": "5511976342397",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-014-pessoa-01",
+            "nome": "Sandra",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-014-pessoa-02",
+            "nome": "Carlos",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Sandra e Carlos! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511976342397",
+            "url": "https://web.whatsapp.com/send?phone=5511976342397&text=Ol%C3%A1%2C%20Sandra%20e%20Carlos%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-015",
+        "nome_convite": "Juliana e Brunela",
+        "telefone_original": "11 972420096",
+        "telefones": [
+          {
+            "original": "11 972420096",
+            "numero_internacional": "5511972420096",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-015-pessoa-01",
+            "nome": "Juliana",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-015-pessoa-02",
+            "nome": "Brunela",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Juliana e Brunela! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511972420096",
+            "url": "https://web.whatsapp.com/send?phone=5511972420096&text=Ol%C3%A1%2C%20Juliana%20e%20Brunela%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-016",
+        "nome_convite": "Filipe, Gabryelle, Luiza, Teodoro e Bernardo",
+        "telefone_original": "11 971356573",
+        "telefones": [
+          {
+            "original": "11 971356573",
+            "numero_internacional": "5511971356573",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 5,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-016-pessoa-01",
+            "nome": "Filipe",
+            "referencia_original": "marido",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-016-pessoa-02",
+            "nome": "Gabryelle",
+            "referencia_original": "esposa",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-016-pessoa-03",
+            "nome": "Luiza",
+            "referencia_original": "filha",
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "2 anos"
+          },
+          {
+            "id": "convite-016-pessoa-04",
+            "nome": "Teodoro",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "8 anos"
+          },
+          {
+            "id": "convite-016-pessoa-05",
+            "nome": "Bernardo",
+            "referencia_original": "filho",
+            "sexo": "M",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "11 anos"
+          }
+        ],
+        "mensagem": "Olá, Filipe, Gabryelle e família!\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nPreparamos este convite com muito carinho para:\n\n- Filipe\n- Gabryelle\n- Luiza\n- Teodoro\n- Bernardo\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511971356573",
+            "url": "https://web.whatsapp.com/send?phone=5511971356573&text=Ol%C3%A1%2C%20Filipe%2C%20Gabryelle%20e%20fam%C3%ADlia%21%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0APreparamos%20este%20convite%20com%20muito%20carinho%20para%3A%0A%0A-%20Filipe%0A-%20Gabryelle%0A-%20Luiza%0A-%20Teodoro%0A-%20Bernardo%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "4_ou_mais_pessoas"
+      },
+      {
+        "id": "convite-017",
+        "nome_convite": "Cida e Joaquim",
+        "telefone_original": "11 933992421",
+        "telefones": [
+          {
+            "original": "11 933992421",
+            "numero_internacional": "5511933992421",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-017-pessoa-01",
+            "nome": "Cida",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-017-pessoa-02",
+            "nome": "Joaquim",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Cida e Joaquim! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511933992421",
+            "url": "https://web.whatsapp.com/send?phone=5511933992421&text=Ol%C3%A1%2C%20Cida%20e%20Joaquim%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [
+          "revisar_quantidade_vs_nomes"
+        ],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-018",
+        "nome_convite": "Daniel",
+        "telefone_original": "11 982520812",
+        "telefones": [
+          {
+            "original": "11 982520812",
+            "numero_internacional": "5511982520812",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-018-pessoa-01",
+            "nome": "Daniel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Daniel! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com você: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511982520812",
+            "url": "https://web.whatsapp.com/send?phone=5511982520812&text=Ol%C3%A1%2C%20Daniel%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AA%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-019",
+        "nome_convite": "Larissa",
+        "telefone_original": "35 987218803",
+        "telefones": [
+          {
+            "original": "35 987218803",
+            "numero_internacional": "5535987218803",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-019-pessoa-01",
+            "nome": "Larissa",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Larissa! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com você: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5535987218803",
+            "url": "https://web.whatsapp.com/send?phone=5535987218803&text=Ol%C3%A1%2C%20Larissa%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AA%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-020",
+        "nome_convite": "Jessica e Alex",
+        "telefone_original": "35 988557647",
+        "telefones": [
+          {
+            "original": "35 988557647",
+            "numero_internacional": "5535988557647",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-020-pessoa-01",
+            "nome": "Jessica",
+            "referencia_original": "mulher",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-020-pessoa-02",
+            "nome": "Alex",
+            "referencia_original": "namorado",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Jessica e Alex! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5535988557647",
+            "url": "https://web.whatsapp.com/send?phone=5535988557647&text=Ol%C3%A1%2C%20Jessica%20e%20Alex%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-021",
+        "nome_convite": "Katia e Douglas",
+        "telefone_original": "19 991430769",
+        "telefones": [
+          {
+            "original": "19 991430769",
+            "numero_internacional": "5519991430769",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-021-pessoa-01",
+            "nome": "Katia",
+            "referencia_original": "mulher",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-021-pessoa-02",
+            "nome": "Douglas",
+            "referencia_original": "namorado",
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Katia e Douglas! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519991430769",
+            "url": "https://web.whatsapp.com/send?phone=5519991430769&text=Ol%C3%A1%2C%20Katia%20e%20Douglas%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-022",
+        "nome_convite": "Karol, Leo e Manu",
+        "telefone_original": "19 99137-6552",
+        "telefones": [
+          {
+            "original": "19 99137-6552",
+            "numero_internacional": "5519991376552",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-022-pessoa-01",
+            "nome": "Karol",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-022-pessoa-02",
+            "nome": "Leo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-022-pessoa-03",
+            "nome": "Manu",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Karol, Leo e Manu! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519991376552",
+            "url": "https://web.whatsapp.com/send?phone=5519991376552&text=Ol%C3%A1%2C%20Karol%2C%20Leo%20e%20Manu%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-023",
+        "nome_convite": "Mariela",
+        "telefone_original": "19 983195668",
+        "telefones": [
+          {
+            "original": "19 983195668",
+            "numero_internacional": "5519983195668",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-023-pessoa-01",
+            "nome": "Mariela",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Mariela! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com você: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519983195668",
+            "url": "https://web.whatsapp.com/send?phone=5519983195668&text=Ol%C3%A1%2C%20Mariela%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AA%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-024",
+        "nome_convite": "Daniel e Francine",
+        "telefone_original": "35 91956292",
+        "telefones": [
+          {
+            "original": "35 91956292",
+            "numero_internacional": "553591956292",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-024-pessoa-01",
+            "nome": "Daniel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-024-pessoa-02",
+            "nome": "Francine",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Daniel e Francine! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "553591956292",
+            "url": "https://web.whatsapp.com/send?phone=553591956292&text=Ol%C3%A1%2C%20Daniel%20e%20Francine%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-025",
+        "nome_convite": "Leo, Bianca e Mirela",
+        "telefone_original": "35 88346676",
+        "telefones": [
+          {
+            "original": "35 88346676",
+            "numero_internacional": "553588346676",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-025-pessoa-01",
+            "nome": "Leo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-025-pessoa-02",
+            "nome": "Bianca",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-025-pessoa-03",
+            "nome": "Mirela",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Leo, Bianca e Mirela! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "553588346676",
+            "url": "https://web.whatsapp.com/send?phone=553588346676&text=Ol%C3%A1%2C%20Leo%2C%20Bianca%20e%20Mirela%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-037",
+        "nome_convite": "Aline e Gustavo",
+        "telefone_original": "11 955873583",
+        "telefones": [
+          {
+            "original": "11 955873583",
+            "numero_internacional": "5511955873583",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-037-pessoa-01",
+            "nome": "Aline",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-037-pessoa-02",
+            "nome": "Gustavo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Aline e Gustavo! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511955873583",
+            "url": "https://web.whatsapp.com/send?phone=5511955873583&text=Ol%C3%A1%2C%20Aline%20e%20Gustavo%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-038",
+        "nome_convite": "Silvia e Alexandre",
+        "telefone_original": null,
+        "telefones": [],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-038-pessoa-01",
+            "nome": "Silvia",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-038-pessoa-02",
+            "nome": "Alexandre",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Silvia e Alexandre! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "telefone_ausente"
+        ],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-039",
+        "nome_convite": "Neuza e Osvaldo e Matheus",
+        "telefone_original": "19 998390999",
+        "telefones": [
+          {
+            "original": "19 998390999",
+            "numero_internacional": "5519998390999",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 3,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-039-pessoa-01",
+            "nome": "Neuza",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-039-pessoa-02",
+            "nome": "Osvaldo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-039-pessoa-03",
+            "nome": "Matheus",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Neuza, Osvaldo e Matheus! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença e os nomes de cada pessoa que poderá estar conosco.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519998390999",
+            "url": "https://web.whatsapp.com/send?phone=5519998390999&text=Ol%C3%A1%2C%20Neuza%2C%20Osvaldo%20e%20Matheus%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20e%20os%20nomes%20de%20cada%20pessoa%20que%20poder%C3%A1%20estar%20conosco.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "3_pessoas"
+      },
+      {
+        "id": "convite-040",
+        "nome_convite": "Cidao e Sabrina",
+        "telefone_original": "19 99299-6043",
+        "telefones": [
+          {
+            "original": "19 99299-6043",
+            "numero_internacional": "5519992996043",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-040-pessoa-01",
+            "nome": "Cidao",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-040-pessoa-02",
+            "nome": "Sabrina",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Cidao e Sabrina! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519992996043",
+            "url": "https://web.whatsapp.com/send?phone=5519992996043&text=Ol%C3%A1%2C%20Cidao%20e%20Sabrina%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-050",
+        "nome_convite": "Tia Cema",
+        "telefone_original": "11 933131171",
+        "telefones": [
+          {
+            "original": "11 933131171",
+            "numero_internacional": "5511933131171",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 1,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-050-pessoa-01",
+            "nome": "Tia Cema",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Tia Cema! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com você: *vamos nos casar!*\n\nSerá uma alegria enorme ter você conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a sua presença.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511933131171",
+            "url": "https://web.whatsapp.com/send?phone=5511933131171&text=Ol%C3%A1%2C%20Tia%20Cema%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AA%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AA%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20sua%20presen%C3%A7a.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "1_pessoa"
+      },
+      {
+        "id": "convite-051",
+        "nome_convite": "Matheus e Tiago",
+        "telefone_original": "35 92010959",
+        "telefones": [
+          {
+            "original": "35 92010959",
+            "numero_internacional": "553592010959",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-051-pessoa-01",
+            "nome": "Matheus",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-051-pessoa-02",
+            "nome": "Tiago",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Matheus e Tiago! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "553592010959",
+            "url": "https://web.whatsapp.com/send?phone=553592010959&text=Ol%C3%A1%2C%20Matheus%20e%20Tiago%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-052",
+        "nome_convite": "Luiza e Gabriel",
+        "telefone_original": "11 981293654",
+        "telefones": [
+          {
+            "original": "11 981293654",
+            "numero_internacional": "5511981293654",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-052-pessoa-01",
+            "nome": "Luiza",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-052-pessoa-02",
+            "nome": "Gabriel",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Luiza e Gabriel! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511981293654",
+            "url": "https://web.whatsapp.com/send?phone=5511981293654&text=Ol%C3%A1%2C%20Luiza%20e%20Gabriel%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-058",
+        "nome_convite": "Renilza e Isabela",
+        "telefone_original": "11 97613-1519",
+        "telefones": [
+          {
+            "original": "11 97613-1519",
+            "numero_internacional": "5511976131519",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-058-pessoa-01",
+            "nome": "Renilza",
+            "referencia_original": "mãe",
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-058-pessoa-02",
+            "nome": "Isabela",
+            "referencia_original": "filha",
+            "sexo": "F",
+            "tipo": "Criança",
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": "Aproximadamente 9 anos"
+          }
+        ],
+        "mensagem": "Olá, Renilza e Isabela! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5511976131519",
+            "url": "https://web.whatsapp.com/send?phone=5511976131519&text=Ol%C3%A1%2C%20Renilza%20e%20Isabela%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      },
+      {
+        "id": "convite-065",
+        "nome_convite": "Daiane e Ronaldo",
+        "telefone_original": "19 989071001",
+        "telefones": [
+          {
+            "original": "19 989071001",
+            "numero_internacional": "5519989071001",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "julia",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Convidado",
+        "convidados": [
+          {
+            "id": "convite-065-pessoa-01",
+            "nome": "Daiane",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-065-pessoa-02",
+            "nome": "Ronaldo",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Daiane e Ronaldo! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519989071001",
+            "url": "https://web.whatsapp.com/send?phone=5519989071001&text=Ol%C3%A1%2C%20Daiane%20e%20Ronaldo%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": true,
+        "pendencias": [],
+        "variacao_mensagem": "2_pessoas"
+      }
+    ],
+    "definir_responsavel": [
+      {
+        "id": "convite-006",
+        "nome_convite": "Kamila e Bruno",
+        "telefone_original": "19 986078653",
+        "telefones": [
+          {
+            "original": "19 986078653",
+            "numero_internacional": "5519986078653",
+            "pais": "BR",
+            "valido_para_link": true
+          }
+        ],
+        "responsavel_envio": "definir_responsavel",
+        "grupo_convite": null,
+        "quantidade_pessoas": 2,
+        "tipo_convite": "Padrinho",
+        "convidados": [
+          {
+            "id": "convite-006-pessoa-01",
+            "nome": "Kamila",
+            "referencia_original": null,
+            "sexo": "F",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          },
+          {
+            "id": "convite-006-pessoa-02",
+            "nome": "Bruno",
+            "referencia_original": null,
+            "sexo": "M",
+            "tipo": null,
+            "situacao": "Pendente",
+            "mesa": null,
+            "faixa_etaria": null
+          }
+        ],
+        "mensagem": "Olá, Kamila e Bruno! Tudo bem? 🤍\nEstamos muito felizes em compartilhar uma notícia tão especial com vocês: *vamos nos casar!*\n\nSerá uma alegria enorme ter vocês conosco para celebrar esse dia tão importante para nós.\n\nNosso casamento será no dia *14 de novembro de 2026, às 16h*.\nTodas as informações estão no nosso convite:\nhttps://www.juliachristian.com.br/invite\n\nNossa cerimonialista entrará em contato aproximadamente um mês antes do casamento para confirmar a presença de vocês.\n\nCom carinho,\n*Julia & Christian* 💍",
+        "links_whatsapp": [
+          {
+            "telefone": "5519986078653",
+            "url": "https://web.whatsapp.com/send?phone=5519986078653&text=Ol%C3%A1%2C%20Kamila%20e%20Bruno%21%20Tudo%20bem%3F%20%F0%9F%A4%8D%0AEstamos%20muito%20felizes%20em%20compartilhar%20uma%20not%C3%ADcia%20t%C3%A3o%20especial%20com%20voc%C3%AAs%3A%20%2Avamos%20nos%20casar%21%2A%0A%0ASer%C3%A1%20uma%20alegria%20enorme%20ter%20voc%C3%AAs%20conosco%20para%20celebrar%20esse%20dia%20t%C3%A3o%20importante%20para%20n%C3%B3s.%0A%0ANosso%20casamento%20ser%C3%A1%20no%20dia%20%2A14%20de%20novembro%20de%202026%2C%20%C3%A0s%2016h%2A.%0ATodas%20as%20informa%C3%A7%C3%B5es%20est%C3%A3o%20no%20nosso%20convite%3A%0Ahttps%3A%2F%2Fwww.juliachristian.com.br%2Finvite%0A%0ANossa%20cerimonialista%20entrar%C3%A1%20em%20contato%20aproximadamente%20um%20m%C3%AAs%20antes%20do%20casamento%20para%20confirmar%20a%20presen%C3%A7a%20de%20voc%C3%AAs.%0A%0ACom%20carinho%2C%0A%2AJulia%20%26%20Christian%2A%20%F0%9F%92%8D"
+          }
+        ],
+        "pronto_para_envio": false,
+        "pendencias": [
+          "definir_responsavel"
+        ],
+        "variacao_mensagem": "2_pessoas"
+      }
+    ]
+  },
+  "estrutura": {
+    "descricao": "Cada registro representa um convite ou família; convidados contém as pessoas individualizadas.",
+    "campos_pendentes_por_padrao": {
+      "sexo": null,
+      "tipo": null,
+      "situacao": "Pendente",
+      "mesa": null,
+      "faixa_etaria": null
+    },
+    "observacao_mesas": "As mesas serão definidas posteriormente por Julia e Christian."
+  },
+  "aba_fonte": "Convidados 1",
+  "variacoes_mensagem": {
+    "1_pessoa": "Mensagem no singular.",
+    "2_pessoas": "Mensagem no plural, com os dois nomes na saudação.",
+    "3_pessoas": "Mensagem no plural, com os três nomes na saudação.",
+    "4_ou_mais_pessoas": "Mensagem para família/grupo, com lista nominal dos convidados."
+  }
+}
