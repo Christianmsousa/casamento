@@ -39,5 +39,8 @@ next-env.d.ts
 /data/*.json
 !/data/.gitkeep
 
+# local venv for planilha scripts
+.venv-planilha/
+
 
 
